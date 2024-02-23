@@ -19,7 +19,8 @@
     <header>
         <div class="navbar">
             <div class="logo"><a href="home.php">Chevron Educational</a></div>
-            <ul class="links">
+            <ul class="links"> 
+                /*
                 <?php
                     $id = $_SESSION['valid'];
                     $query = mysqli_query($con, "SELECT * FROM users WHERE Id=$id");
@@ -29,7 +30,7 @@
                         $res_Score = $result['Score'];
                         $res_id = $result['Id'];
                     }
-                ?>
+                ?>*/
                 <li><a href="hero">Home</a></li>
                 <li><a href="about">About</a></li>
                 <li><a href="service">Problem</a></li>
