@@ -10,7 +10,9 @@
 <body>
     <div class="container">
         <div class="box form-box">
+        
         <?php
+
             include("config.php");
             //Create a push for database
             if(isset($_POST['submit'])){
