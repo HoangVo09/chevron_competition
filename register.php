@@ -11,27 +11,28 @@
     <div class="container">
         <div class="box form-box">
         <?php
-            include("config.php")
+            include("config.php");
+            //Create a push for database
             if(isset($_POST['submit'])){
                 $username = $_POST['username'];
                 $email = $_POST['email'];
                 $password = $_POST['password'];
                 //verifying the unique email
-                $verify_query = mysqli_query($con,"SELECT Email FROM user WHERE Email='$email'")
+                $verify_query = mysqli_query($con,"SELECT Email FROM users WHERE Email='$email'");
                 if(mysqli_num_rows($verify_query) != 0){
-                    echo "<div class='message'
+                    echo "<div class='message'>
                                 <p>This email is used, Try another One Please!</p>
                             </div> <br>";
                     echo "<a href='javascript:self.history.back()'><button class='btn'>Go Back</button>";
                 }
                 else{
-                    mysqli_query($con, "INSERT INTO user(Username, Email, Password, Score) VALUES('$username','$email','$password', 0)") or die("Error Occured")
-                    echo "<div class='message'
-                                <p>Registration successfully!</p>
+                    mysqli_query($con, "INSERT INTO users(Username, Email, Password, Score) VALUES('$username','$email','$password', 0)") or die("Error Occurred");
+                    echo "<div class='message'>
+                                <p>Registration successful!</p>
                             </div> <br>";
                     echo "<a href='javascript:self.history.back()'><button class='btn'>Login Now</button>";
                 }
-            }else{
+            } else {
         ?>
             <header>Sign Up</header>
             <form action="" method="post">

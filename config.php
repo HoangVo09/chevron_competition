@@ -1,4 +1,3 @@
 <?php
-    $con = mysqli_connect("sql3.freesqldatabase.com","sql3686022","DHPiU691L6","sql3686022") or die("couldn't connect")
-
+    $con = mysqli_connect("localhost","root@localhost","","chevron_competition") or die("couldn't connect");
 ?>
