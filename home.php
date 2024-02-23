@@ -59,107 +59,73 @@
                 and environmentally friendly energy options for Chevron.
             </p>
         </section>
-    </main>
-    <div class="dropdown">
-        <span>Study Links</span>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <!-- Add more links as needed -->
-        </div>
-    </div>
     
-    <!---Footer--->
-    <footer>
-        <div class="footer" style="background-image: url('')">
-            <div class="footer-top section">
-                <div class="container grid-list">
-                    <div class="footer-brand">
-                        <a href="home.php" class="logo">
-                            <img src="Image/chevron_logo.png" width="162" height="100" alt="">
-                        </a>
-                        <p class="footer-brand-text">This website serves as a guide to navigate through innovative solutions pertaining to diverse <br>
-                            and environmentally friendly energy options for Chevron.</p>
-                            <div class="wrapper">
-                                <span class="span">Add: </span>
-                                <address class="address">6001 Bollinger Canyon Road, San Ramon, CA 94583, USA</address>
-                            </div>
-                        
-                            <div class="wrapper">
-                                <span class="span">Call: </span>
 
-                                <a href="tel:+19258421000" class="footer-link">+1 925 842 1000</a>
-                            </div>
-
-                            <div class="wrapper">
-                                <span class="span">Email: </span>
-
-                                <a href="mailto: lvo@mines.edu" class="footer-link">lvo@mines.edu</a>
-                            </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Get to know us</h4>
+                    <ul>
+                    <li>
+                        <a href="https://www.chevron.com/who-we-are">who chevron are</a>
+                    </li>
+                    <li>
+                        <a href="https://www.chevron.com/what-we-do">what chevron do</a>
+                    </li>
+                    <li>
+                        <a href="https://www.chevron.com/who-we-are/leadership">chevron leadership</a>
+                    </li>
+                    <li>
+                        <a href="https://www.chevron.com/what-we-do/technology-and-innovation">technology and innovation</a>
+                    </li>
+                    <li>
+                        <a href="https://www.chevron.com/sustainability">sustainability</a>
+                    </li>
+                    <li>
+                        <a href="https://www.chevron.com/worldwide">chevron around the world</a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Popular Links</h4>
+                    <ul>
+                    <li>
+                        <a href="https://www.chevron.com/who-we-are/contact">contact chevron</a>
+                    </li>
+                    <li>
+                        <a href="https://careers.chevron.com/">careers</a>
+                    </li>
+                    <li>
+                        <a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">find a service station</a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Sources</h4>
+                    <ul>
+                    <li>
+                        <a href="https://www.chevron.com/what-we-do/technology-and-innovation/capturing-and-storing-carbon-emissions">carbon capture and storage</a>
+                    </li>
+                    <li>
+                        <a href="https://www.chevron.com/what-we-do/energy/new-energies/partnerships#hydrogen">hydrogen</a>
+                    </li>
+                    <li>
+                        <a href="https://www.chevron.com/what-we-do/energy/new-energies/renewable-fuels-and-products">renewable fuels and products</a>
+                    </li>
+                    <li>
+                        <a href="https://www.chevron.com/what-we-do/energy/new-energies/partnerships#carbonoffsets">carbon offsets</a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    
-                    <ul class="footer-list">
-                        <li>
-                            <p class="footer-list-title">get to know us</p>
-                        </li>
-
-                        <li>
-                            <a href="https://www.chevron.com/who-we-are" class="footer-link">who chevron are</a>
-                        </li>
-                        <li>
-                            <a href="https://www.chevron.com/what-we-do" class="footer-link">what chevron do</a>
-                        </li>
-                        <li>
-                            <a href="https://www.chevron.com/who-we-are/leadership" class="footer-link">chevron leadership</a>
-                        </li>
-                        <li>
-                            <a href="https://www.chevron.com/what-we-do/technology-and-innovation" class="footer-link">technology and innovation</a>
-                        </li>
-                        <li>
-                            <a href="https://www.chevron.com/sustainability" class="footer-link">sustainability</a>
-                        </li>
-                        <li>
-                            <a href="https://www.chevron.com/worldwide" class="footer-link">chevron around the world</a>
-                        </li>
-                    </ul>
-                    <ul class="footer-list">
-                        <li>
-                            <p class="footer-list-title">our sources</p>
-                        </li>
-
-                        <li>
-                            <a href="https://www.chevron.com/what-we-do/technology-and-innovation/capturing-and-storing-carbon-emissions" class="footer-link">carbon capture and storage</a>
-                        </li>
-                        <li>
-                            <a href="https://www.chevron.com/what-we-do/energy/new-energies/partnerships#hydrogen" class="footer-link">hydrogen</a>
-                        </li>
-                        <li>
-                            <a href="https://www.chevron.com/what-we-do/energy/new-energies/renewable-fuels-and-products" class="footer-link">renewable fuels and products</a>
-                        </li>
-                        <li>
-                            <a href="https://www.chevron.com/what-we-do/energy/new-energies/partnerships#carbonoffsets" class="footer-link">carbon offsets</a>
-                        </li>
-                    </ul>
-
-                    <ul class="footer-list">
-                        <li>
-                            <p class="footer-list-title">Popular Links</p>
-                        </li>
-
-                        <li>
-                            <a href="https://www.chevron.com/who-we-are/contact" class="footer-link">contact chevron</a>
-                        </li>
-                        <li>
-                            <a href="https://careers.chevron.com/" class="footer-link">careers</a>
-                        </li>
-                        <li>
-                            <a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations" class="footer-link">find a service station</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer-link">Coming soon</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
