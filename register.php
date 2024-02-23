@@ -13,7 +13,7 @@
         
         <?php
 
-            include("php/config.php");
+            include("config.php");
             //Create a push for database
             if(isset($_POST['submit'])){
                 $username = $_POST['username'];
