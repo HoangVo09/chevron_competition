@@ -16,7 +16,7 @@
             <?php
 
                 include("config.php");
-                if(isset($_PORT['submit'])){
+                if(isset($_POST['submit'])){
                     $email = mysqli_real_escape_string($con, $_POST['email']);
                     $password = mysqli_real_escape_string($con,$_POST['password']);
                     $result = mysqli_query($con, "SELECT * FROM users WHERE Email='$email' AND Password='$password' ") or die("Select Error");
@@ -33,7 +33,7 @@
                         echo "<a href='index.php'><button class='btn'>Go Back</button>";
                     }
                     if(isset($_SESSION['valid'])){
-                        echo "<a href='home.php'>";
+                        header("Location: home.php")
                     }
                 }else{
             ?>
