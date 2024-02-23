@@ -33,7 +33,7 @@
                         echo "<a href='index.php'><button class='btn'>Go Back</button>";
                     }
                     if(isset($_SESSION['valid'])){
-                        header("Location: home.php")
+                        header("Location: home.php");
                     }
                 }else{
             ?>
