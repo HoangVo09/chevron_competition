@@ -111,10 +111,10 @@
                 <div class="footer-col">
                     <h4>Follow us</h4>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/Chevron"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/chevron"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/chevron"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/chevron"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
