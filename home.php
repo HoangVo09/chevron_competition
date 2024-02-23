@@ -34,7 +34,7 @@
                 <li><a href="about">About</a></li>
                 <li><a href="service">Problem</a></li>
                 <li><a href="contact">Contact us</a></li>
-                <li><a href="logout.php">Logout</a></li>
+                <li><a href="php/logout.php">Logout</a></li>
             </ul>
             
             <div class="toggle_btn">
