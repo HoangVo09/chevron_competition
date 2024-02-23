@@ -21,7 +21,7 @@
             <div class="logo"><a href="home.php">Chevron Educational</a></div>
             <ul class="links"> 
                 <?php
-                    $id = $_SESSION['valid'];
+                    $id = $_SESSION['id'];
                     $query = mysqli_query($con, "SELECT * FROM users WHERE Id=$id");
                     while($result = mysqli_fetch_assoc($query)){
                         $res_Uname = $result['Username'];
