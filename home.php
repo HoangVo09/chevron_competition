@@ -1,3 +1,11 @@
+<?php
+    session_start();
+
+    include("php/config.php");
+    if(isset($_SESSION['valid'])){
+        header("Location: index.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +20,16 @@
         <div class="navbar">
             <div class="logo"><a href="home.php">Chevron Educational</a></div>
             <ul class="links">
+                <?php
+                    $id = $_SESSION['valid'];
+                    $query = mysqli_query($con, "SELECT * FROM users WHERE Id=$id");
+                    while($result = mysqli_fetch_assoc($query)){
+                        $res_Uname = $result['Username'];
+                        $res_Email = $result['Email'];
+                        $res_Score = $result['Score'];
+                        $res_id = $result['Id'];
+                    }
+                ?>
                 <li><a href="hero">Home</a></li>
                 <li><a href="about">About</a></li>
                 <li><a href="service">Problem</a></li>
@@ -26,7 +44,7 @@
                     <a href="about">About</a>
                     <a href="service">Problem</a>
                     <a href="contact">Contact us</a>
-                    <li><a href="logout.php">Logout</a></li>
+                    <li><a href="php/logout.php">Logout</a></li>
                 </div>
             </div>
         </div>
@@ -50,7 +68,7 @@
                 <div class="container grid-list">
                     <div class="footer-brand">
                         <a href="home.php" class="logo">
-                            <img src="chevron_logo.png" width="162" height="100" alt="">
+                            <img src="Image/chevron_logo.png" width="162" height="100" alt="">
                         </a>
                         <p class="footer-brand-text">This website serves as a guide to navigate through innovative solutions pertaining to diverse <br>
                             and environmentally friendly energy options for Chevron.</p>

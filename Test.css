@@ -6,9 +6,8 @@
 }
 
 body {
+    background-color: bisque;
     height: 100vh;
-    background-color: #000;
-    background-image: url('Image/Chevron.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -57,31 +56,46 @@ header{
     cursor:pointer;
     display:none;
 }
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+
+.action_btn {
+    background-color: orange;
+    color:#fff;
+    padding: 0.5rem 1rem;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor:pointer;
+    transition: scale 0.2 ease;
+}
+
+.action_btn:hover {
+    scale: 1.05;
+    color:#fff;
+}
+
+.action_btn:active {
+    scale:0.95;
+}
+
+.dropdown_menu .open{
+    height:240px;
+
+}
+.dropdown_menu {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .navbar .toggle_btn:hover .dropdown-content {display: block;}
-  
- 
+    right:2rem;
+    top:60px;
+    width:300px;
+    height:0;
+    background: rgba(15, 14, 14, 0);
+    backdrop-filter:blur(55px);
+    border-radius:10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
 section#hero{
     height:calc(100vh - 10px);
     display:flex;
@@ -208,4 +222,84 @@ section#hero{
     color: var(--kappel);
     display: inline-block;
 
+}
+
+h2 {
+    margin-top: 15px;
+    text-align: center;
+    color:gray;
+    font-size: 35px;
+}
+
+p{
+    font-size: 23px;
+}
+
+.app {
+    background:greenyellow;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding:30px;
+}
+
+.app h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight:600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.btn {
+    background: #fff;
+    color:#222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding:10px;
+    margin:10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disable]) {
+    background:#222;
+    color:#fff;
+}
+.btn:disabled{
+    cursor:no-drop;
+}
+
+#next-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width:150px;
+    border:0;
+    padding:10px;
+    margin:20px auto 0;
+    border-radius: 4px;
+    cursor:pointer;
+    display: block;
+}
+
+.correct {
+    background: #9aeabc;
+}
+.incorrect {
+    background: #ff9393;
 }
