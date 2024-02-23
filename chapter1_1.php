@@ -37,6 +37,7 @@
         Currently, Chevron produces around 1 million tonnes of hydrogen annually through our conventional business practices, drawing on our extensive experience in retail hydrogen dating back to 2005. With over 75 patents stemming from early commercial ventures, we are well-equipped for future development initiatives. Our existing refineries generate approximately 1 million tonnes of hydrogen annually for use in refining operations, and we have the potential to supply hydrogen to customers by leveraging our distribution capabilities, sales channels, and brands. In addition, we are actively constructing hydrogen fueling stations at selected locations.
         We are exploring profitable growth opportunities across the entire value chain, encompassing upstream production, distribution, transportation, power generation, and other industrial applications. Additionally, we are investigating the use of hydrogen as an alternative for industries currently reliant on combustible fuels and assessing the development of hydrogen production hubs. Leveraging our expertise in carbon capture, utilization, and storage, we are working to unlock market opportunities for hydrogen solutions.</p>
     <div class="app">
+        <script src="script.js"></script>
         <h1>Simple Question</h1>
         <div class="quiz">
             <h2 id="question">Question go here</h2>
@@ -49,7 +50,6 @@
             <button id="next-btn">Next</button>
         </div>
     </div>
-    <script src="script.js"></script>
      <!---Footer--->
      <footer>
         <div class="footer" style="background-image: url('')">

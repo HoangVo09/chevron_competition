@@ -60,6 +60,15 @@
             </p>
         </section>
     </main>
+    <div class="dropdown">
+        <span>Study Links</span>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <!-- Add more links as needed -->
+        </div>
+    </div>
     
     <!---Footer--->
     <footer>
