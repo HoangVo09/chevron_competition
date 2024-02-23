@@ -40,8 +40,8 @@
             <header>Login</header>
             <form action="" method="post">
                 <div class="field input">
-                    <label for="username">Username</label>
-                    <input type="text" name="username" id="username" required>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" required>
                 </div>
                 <div class="field input">
                     <label for="password">password</label>
