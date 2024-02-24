@@ -1,3 +1,50 @@
+<?php
+    session_start();
+
+    include("config.php");
+
+    // Check if the user is logged in
+    if(!isset($_SESSION['valid'])){
+        header("Location: index.php");
+        exit;
+    }
+
+    // Handle form submission
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Retrieve user's selected answer
+        $selectedAnswer = $_POST["answer"];
+
+        // Define the correct answer
+        $correctAnswer = "Answer2"; // Change this to the correct answer
+
+        // Check if the selected answer is correct
+        $scoreChange = 0;
+        if ($selectedAnswer === $correctAnswer) {
+            $scoreChange = 5;
+        } else {
+            // If the score is greater than 0, deduct 1 point
+            $scoreChange = ($_POST["score"] > 0) ? -1 : 0;
+        }
+
+        // Update the score in the database
+        $sql = "UPDATE users SET Score = Score + $scoreChange WHERE Id = {$_SESSION['Id']}";
+        
+        if ($conn->query($sql) === TRUE) {
+            echo "Score updated successfully!";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+    }
+
+    // Retrieve the current score
+    $result = $conn->query("SELECT Score FROM users WHERE Id = {$_SESSION['Id']}");
+    if ($result->num_rows > 0) {
+        $row = $result->fetch_assoc();
+        $currentScore = $row["Score"];
+    } else {
+        $currentScore = 0;
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,17 +84,19 @@
         Currently, Chevron produces around 1 million tonnes of hydrogen annually through our conventional business practices, drawing on our extensive experience in retail hydrogen dating back to 2005. With over 75 patents stemming from early commercial ventures, we are well-equipped for future development initiatives. Our existing refineries generate approximately 1 million tonnes of hydrogen annually for use in refining operations, and we have the potential to supply hydrogen to customers by leveraging our distribution capabilities, sales channels, and brands. In addition, we are actively constructing hydrogen fueling stations at selected locations.
         We are exploring profitable growth opportunities across the entire value chain, encompassing upstream production, distribution, transportation, power generation, and other industrial applications. Additionally, we are investigating the use of hydrogen as an alternative for industries currently reliant on combustible fuels and assessing the development of hydrogen production hubs. Leveraging our expertise in carbon capture, utilization, and storage, we are working to unlock market opportunities for hydrogen solutions.</p>
     <div class="app">
-        <script src="script.js"></script>
         <h1>Simple Question</h1>
         <div class="quiz">
             <h2 id="question">Question go here</h2>
             <div id="answer-buttons">
-                <button class="btn">Answer1</button>
-                <button class="btn">Answer2</button>
-                <button class="btn">Answer3</button>
-                <button class="btn">Answer4</button>
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                    <button class="btn" type="submit" name="answer" value="Answer1">Answer1</button>
+                    <button class="btn" type="submit" name="answer" value="Answer2">Answer2</button>
+                    <button class="btn" type="submit" name="answer" value="Answer3">Answer3</button>
+                    <button class="btn" type="submit" name="answer" value="Answer4">Answer4</button>
+
+                    <input type="hidden" name="score" value="<?php echo $currentScore; ?>">
+                </form>
             </div>
-            <button id="next-btn">Next</button>
         </div>
     </div>
      <!---Footer--->
