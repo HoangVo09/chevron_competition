@@ -121,12 +121,10 @@
         <div class="quiz">
             <h2 id="question">Which of the following is not a way of transporting hydrogen?</h2>
             <div id="answer-buttons">
-                <form method="post">
                     <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">Pipelines</button>
                     <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">High Pressure Tube Trailers</button>
                     <button class="btn" type="submit" name="submit[Answer3]" value="Answer3">Planes</button>
                     <button class="btn" type="submit" name="submit[Answer4]" value="Answer4">Liquified Hydrogen Tankers</button>
-                </form>
             </div>
         </div>
     </div>
@@ -162,10 +160,8 @@
         <div class="quiz">
             <h2 id="question">You can technically use hydrogen in internal combustion engines and it would be more efficient and less tailpipe emissions would be produced.</h2>
             <div id="answer-buttons">
-                <form method="post">
                     <button class="btn" type="submit" name="submit1[Answer1]" value="Answer1">True</button>
                     <button class="btn" type="submit" name="submit1[Answer2]" value="Answer2">False</button>
-                </form>
             </div>
         </div>
     </div>
