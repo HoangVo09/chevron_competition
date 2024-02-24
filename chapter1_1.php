@@ -11,7 +11,7 @@
 
     if (isset($_POST['submit'])) {
         $answer = "Answer2"; // Change this to the correct answer
-        $selected_answer = $_POST['value'];
+        $selected_answer = array_keys($_POST['submit'])[0];
         $id = $_SESSION['id'];
         $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
         $row = mysqli_fetch_assoc($result);
@@ -78,10 +78,12 @@
         <div class="quiz">
             <h2 id="question">Question go here</h2>
             <div id="answer-buttons">
-                    <button class="btn" type="submit" name="submit" value="Answer1">Answer1</button>
-                    <button class="btn" type="submit" name="submit" value="Answer2">Answer2</button>
-                    <button class="btn" type="submit" name="submit" value="Answer3">Answer3</button>
-                    <button class="btn" type="submit" name="submit" value="Answer4">Answer4</button>
+                <form method="post">
+                    <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">Answer1</button>
+                    <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">Answer2</button>
+                    <button class="btn" type="submit" name="submit[Answer3]" value="Answer3">Answer3</button>
+                    <button class="btn" type="submit" name="submit[Answer4]" value="Answer4">Answer4</button>
+                </form>
             </div>
         </div>
     </div>
