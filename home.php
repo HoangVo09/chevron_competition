@@ -11,7 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <link rel="stylesheet" href="Style/home.css">
     <title>Home</title>
 </head>
@@ -46,45 +46,43 @@
                 </div>
             </div>
         </div>
-        <section id="hero">
-            <h1>Welcome</h1>
-            <p>
-                This website serves as a guide to navigate through innovative solutions pertaining to diverse <br>
-                and environmentally friendly energy options for Chevron.
-            </p>
-        </section>
-
-        
-    </header>
+    </header>      
     <main>
-    <div class="lesson">
-    <ul> 
-        <li>
-            <div><p>1. Innovative energy sources</p></div>
-        </li>
-        <li>
-            <div><a href='Lessons/chapter1_1.php'><p>1.1. Hydrogen</p></a></div>
-        </li>
-        <li>
-            <div><a href='#'><p>1.2. Renewable fuels</p></a></div>
-        </li>
-    </ul> 
-    </div>
-    <div class="lesson">
-    <ul> 
-        <li>
-            <div><p>2. Waste/Gas management.</p></div>
-        </li>
-        <li>
-            <div><a href='Lessons/chapter2_1.php'><p>2.1. Carbon capture, utilization, and storage (CCUS)</p></a></div>
-        </li>
-        <li>
-            <div><a href='#'><p>2.2. Carbon offsets</p></a></div>
-        </li>
-    </ul> 
-    </div>
-    <div class="segment"><ul><li><div><a href='leaderboard.php'><p>3. Leaderboard</p></a></div></li></ul></div>
-        
+        <section id="hero">
+                <h1>Welcome</h1>
+                <p>
+                    This website serves as a guide to navigate through innovative solutions pertaining to diverse <br>
+                    and environmentally friendly energy options for Chevron.
+                </p>
+        </section>
+        <div class="lesson">
+        <ul> 
+            <li>
+                <div><p>1. Innovative energy sources</p></div>
+            </li>
+            <li>
+                <div><a href='Lessons/chapter1_1.php'><p>1.1. Hydrogen</p></a></div>
+            </li>
+            <li>
+                <div><a href='#'><p>1.2. Renewable fuels</p></a></div>
+            </li>
+        </ul> 
+        </div>
+        <div class="lesson">
+        <ul> 
+            <li>
+                <div><p>2. Waste/Gas management.</p></div>
+            </li>
+            <li>
+                <div><a href='Lessons/chapter2_1.php'><p>2.1. Carbon capture, utilization, and storage (CCUS)</p></a></div>
+            </li>
+            <li>
+                <div><a href='#'><p>2.2. Carbon offsets</p></a></div>
+            </li>
+        </ul> 
+        </div>
+        <div class="segment"><ul><li><div><a href='leaderboard.php'><p>3. Leaderboard</p></a></div></li></ul></div>
+            
     </main>
 
 
