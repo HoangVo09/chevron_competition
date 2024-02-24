@@ -61,18 +61,24 @@
                     if($selected_answer == $answer){
                         $score = $score + 5;
                         $edit_query = mysqli_query($con, "UPDATE users SET Score='$score' WHERE Id=$id") or die("Error occured");
+                        if($edit_query){
+                            echo "<div class='message'>
+                                        <p>Your total score is $score</p>
+                                    </div> <br>";
+                            echo "<a href='chapter1_1.php'><button class='btn'>Go Back</button>";
+                        }
                     }
                     else{
                         if($score >= 1){
                             $score = $score - 1;
                             $edit_query = mysqli_query($con, "UPDATE users SET Score='$score' WHERE Id=$id") or die("Error occured");
+                            if($edit_query){
+                                echo "<div class='message'>
+                                            <p>Your total score is $score</p>
+                                        </div> <br>";
+                                echo "<a href='chapter1_1.php'><button class='btn'>Go Back</button>";
+                            }
                         }
-                    }
-                    if($edit_query){
-                        echo "<div class='message'>
-                                    <p>Your total score is $score</p>
-                                </div> <br>";
-                        echo "<a href='chapter1_1.php'><button class='btn'>Go Back</button>";
                     }
 
                 }else{
