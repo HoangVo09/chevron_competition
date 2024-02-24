@@ -61,7 +61,9 @@
     <main>
     <div class="lesson">
     <ul> 
-        <li><div><p>1. Innovative energy sources</p></div></li>
+        <li>
+            <div><p>1. Innovative energy sources</p></div>
+        </li>
         <li>
             <div><a href='chapter1_1.php'><p>1.1. Hydrogen</p></a></div>
         </li>
@@ -72,7 +74,9 @@
     </div>
     <div class="lesson">
     <ul> 
-        <li><div><p>2. Waste/Gas management.</p></div></li>
+        <li>
+            <div><p>2. Waste/Gas management.</p></div>
+        </li>
         <li>
             <div><a href='#'><p>2.1. Carbon capture, utilization, and storage (CCUS)</p></a></div>
         </li>
