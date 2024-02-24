@@ -48,10 +48,6 @@
                 </div>
             </div>
         </div>
-
-        
-    </header>
-    <main>
         <section id="hero">
             <h1>Welcome</h1>
             <p>
@@ -59,6 +55,11 @@
                 and environmentally friendly energy options for Chevron.
             </p>
         </section>
+
+        
+    </header>
+    <main>
+        
     <div class="lession">
     <ul> 
         <li>
