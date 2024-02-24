@@ -16,6 +16,7 @@
         $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
         $row = mysqli_fetch_assoc($result);
         $score = $row['Score'];
+        echo "<p>$score<p>";
 
         if ($selected_answer == $answer) {
             $score = $score + 5;
@@ -32,7 +33,6 @@
                     <p>Your total score is $score</p>
                 </div> <br>";
             echo "<a href='chapter1_1.php'><button class='btn'>Go Back</button>";
-            exit; // Added exit to prevent further execution of the script
         }
     }
 ?>
