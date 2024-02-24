@@ -39,7 +39,7 @@
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
                 <div class="dropdown-content">
-                    <a href="hero">Home</a>
+                    <a href="home.php">Home</a>
                     <a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a>
                     <a href="https://www.chevron.com/who-we-are/contact">Contact us</a>
                     <li><a href="php/logout.php">Logout</a></li>
