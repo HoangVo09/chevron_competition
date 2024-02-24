@@ -92,7 +92,7 @@
     <p><br>Additionally, FCEVs are powered by hydrogen. As mentioned previously, FCEVs do not produce any harmful emissions and are looking at implementing a system almost similar to how we currently use gas stations and charging stations for electric vehicles. The U.S Department of Energy is working on developing affordable FCEVs and safe for transportation but most importantly environmental friendly.</p>
     <?php
         if (isset($_POST['submit'])) {
-            $answer = "Answer2"; // Change this to the correct answer
+            $answer = "Answer3"; // Change this to the correct answer
             $selected_answer = array_keys($_POST['submit'])[0];
             $id = $_SESSION['id'];
             $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
@@ -100,7 +100,7 @@
             $score = $row['Score'];
 
             if ($selected_answer == $answer) {
-                $score = $score + 5;
+                $score = $score + 1;
             } else {
                 if ($score >= 1) {
                     $score = $score - 1;
@@ -113,20 +113,58 @@
                 echo "<div class='message'>
                         <p>Your total score is $score</p>
                     </div> <br>";
-                echo "<a href='chapter1_1.php'><button class='btn'>Go Back</button>";
             }
         }else{
     ?>
     <div class="app">
-        <h1>Simple Question</h1>
+        <h1>Question 1</h1>
         <div class="quiz">
-            <h2 id="question">Question go here</h2>
+            <h2 id="question">Which of the following is not a way of transporting hydrogen?</h2>
             <div id="answer-buttons">
                 <form method="post">
-                    <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">Answer1</button>
-                    <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">Answer2</button>
-                    <button class="btn" type="submit" name="submit[Answer3]" value="Answer3">Answer3</button>
-                    <button class="btn" type="submit" name="submit[Answer4]" value="Answer4">Answer4</button>
+                    <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">Pipelines</button>
+                    <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">High Pressure Tube Trailers</button>
+                    <button class="btn" type="submit" name="submit[Answer3]" value="Answer3">Planes</button>
+                    <button class="btn" type="submit" name="submit[Answer4]" value="Answer4">Liquified Hydrogen Tankers</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <?php } ?>
+    <?php
+        if (isset($_POST['submit'])) {
+            $answer = "Answer2"; // Change this to the correct answer
+            $selected_answer = array_keys($_POST['submit'])[0];
+            $id = $_SESSION['id'];
+            $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
+            $row = mysqli_fetch_assoc($result);
+            $score = $row['Score'];
+
+            if ($selected_answer == $answer) {
+                $score = $score + 1;
+            } else {
+                if ($score >= 1) {
+                    $score = $score - 1;
+                }
+            }
+
+            $edit_query = mysqli_query($con, "UPDATE users SET Score='$score' WHERE Id=$id") or die("Error occurred");
+
+            if ($edit_query) {
+                echo "<div class='message'>
+                        <p>Your total score is $score</p>
+                    </div> <br>";
+            }
+        }else{
+    ?>
+    <div class="app">
+        <h1>Question 2</h1>
+        <div class="quiz">
+            <h2 id="question">You can technically use hydrogen in internal combustion engines and it would be more efficient and less tailpipe emissions would be produced.</h2>
+            <div id="answer-buttons">
+                <form method="post">
+                    <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">True</button>
+                    <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">False</button>
                 </form>
             </div>
         </div>
