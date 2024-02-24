@@ -69,9 +69,14 @@
     </header>
 
     <h2>1.1. Hydrogen</h2>
-    <p>Chevron is committed to advancing large-scale hydrogen solutions that contribute to a more sustainable, lower-carbon world. Our goal is to provide environmentally friendly energy to meet the needs of a growing global population by establishing a financially viable, large-scale hydrogen business. This endeavor builds upon our existing assets, capabilities, and customer base, allowing us to play a key role throughout the value chain in supplying industrial, power, and heavy-duty transportation sectors.
-        Currently, Chevron produces around 1 million tonnes of hydrogen annually through our conventional business practices, drawing on our extensive experience in retail hydrogen dating back to 2005. With over 75 patents stemming from early commercial ventures, we are well-equipped for future development initiatives. Our existing refineries generate approximately 1 million tonnes of hydrogen annually for use in refining operations, and we have the potential to supply hydrogen to customers by leveraging our distribution capabilities, sales channels, and brands. In addition, we are actively constructing hydrogen fueling stations at selected locations.
-        We are exploring profitable growth opportunities across the entire value chain, encompassing upstream production, distribution, transportation, power generation, and other industrial applications. Additionally, we are investigating the use of hydrogen as an alternative for industries currently reliant on combustible fuels and assessing the development of hydrogen production hubs. Leveraging our expertise in carbon capture, utilization, and storage, we are working to unlock market opportunities for hydrogen solutions.</p>
+    <p>Introduction:
+
+Hydrogen (H2) is considered to be an alternative fuel source for domestic resources. These resources can involve vehicles such as buses, industrial vehicles and even may include standard vehicles we use everyday. These vehicles are known as FCEVs (Fuel Cell Electric Vehicles). Furthermore, hydrogen fuel cells can also be used for internal combustion engines, however, unlike FCEVs, it produces more tailpipe emissions and is less efficient. So it is not entirely useless but not useful for the environment. 
+
+Hydrogen Gas:
+
+When it comes to hydrogen gas energy, 2.2 pounds of hydrogen gas is equivalent to 1 gallon (6.2 pounds) of gasoline. The reason for this is that since Hydrogen has a low volumetric energy density, it is stored onboard the vehicle as a compressed gas to achieve the proper driving range or a conventional vehicle. Currently this gas is being stored in high-pressure tanks that are capable of storing around 5,000 to 10,000 pounds per square inch (PSI). In the graph demonstrated below we have the average fueling times for FCEVs. As we can clearly see for the standard refueling time, it is estimated to take around 4 minutes to fill up the tank with hydrogen. 
+</p>
     <div class="app">
         <h1>Simple Question</h1>
         <div class="quiz">
