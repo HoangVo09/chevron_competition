@@ -71,12 +71,15 @@
     <h2>1.1. Hydrogen</h2>
     <p>Introduction:<br>
 
-Hydrogen (H2) is considered to be an alternative fuel source for domestic resources. These resources can involve vehicles such as buses, industrial vehicles and even may include standard vehicles we use everyday. These vehicles are known as FCEVs (Fuel Cell Electric Vehicles). Furthermore, hydrogen fuel cells can also be used for internal combustion engines, however, unlike FCEVs, it produces more tailpipe emissions and is less efficient. So it is not entirely useless but not useful for the environment. 
+    Hydrogen (H2) is considered to be an alternative fuel source for domestic resources. These resources can involve vehicles such as buses, industrial vehicles and even may include standard vehicles we use everyday. These vehicles are known as FCEVs (Fuel Cell Electric Vehicles). Furthermore, hydrogen fuel cells can also be used for internal combustion engines, however, unlike FCEVs, it produces more tailpipe emissions and is less efficient. So it is not entirely useless but not useful for the environment. 
 
-<br>Hydrogen Gas:<br>
+    <br>Hydrogen Gas:<br>
 
-When it comes to hydrogen gas energy, 2.2 pounds of hydrogen gas is equivalent to 1 gallon (6.2 pounds) of gasoline. The reason for this is that since Hydrogen has a low volumetric energy density, it is stored onboard the vehicle as a compressed gas to achieve the proper driving range or a conventional vehicle. Currently this gas is being stored in high-pressure tanks that are capable of storing around 5,000 to 10,000 pounds per square inch (PSI). In the graph demonstrated below we have the average fueling times for FCEVs. As we can clearly see for the standard refueling time, it is estimated to take around 4 minutes to fill up the tank with hydrogen. 
-</p>
+    When it comes to hydrogen gas energy, 2.2 pounds of hydrogen gas is equivalent to 1 gallon (6.2 pounds) of gasoline. The reason for this is that since Hydrogen has a low volumetric energy density, it is stored onboard the vehicle as a compressed gas to achieve the proper driving range or a conventional vehicle. Currently this gas is being stored in high-pressure tanks that are capable of storing around 5,000 to 10,000 pounds per square inch (PSI). In the graph demonstrated below we have the average fueling times for FCEVs. As we can clearly see for the standard refueling time, it is estimated to take around 4 minutes to fill up the tank with hydrogen. 
+    </p>
+    <center><img class='center' url='Fueling Times.png'></center>
+    <center><p>Figure 1: FCEV Fueling Times</p></center>
+
     <div class="app">
         <h1>Simple Question</h1>
         <div class="quiz">
