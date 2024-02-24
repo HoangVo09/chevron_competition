@@ -26,7 +26,7 @@
                 <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
                 <li><a href="../php/logout.php">Logout</a></li>
             </ul>
-            <a href="chapter2_2.php" class="action_btn">Next lesson</a>
+            <a href="chapter2_1.php" class="action_btn">Next lesson</a>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -36,41 +36,37 @@
             <li><a href="../home.php">Home</a></li>
             <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
             <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
-            <li> <a href="chapter2_2.php" class="action_btn">Next lesson</a></li>
+            <li> <a href="chapter2_1.php" class="action_btn">Next lesson</a></li>
             <li><a href="../php/logout.php">Logout</a></li>
         </div>
     </header>
 
-    <h2>2.1. Carbon capture, utilization, and storage (CCUS)</h2>
+    <h2>1.2. Renewable Energy</h2>
     <h3>Introduction:</h3>
 
-    <p><br>When it comes to the emissions around the globe, it varies between agriculture, transportation and other industries. Furthermore, these emissions are massively affecting the global population. These greenhouse gasses are causing global warming and an increase in carbon dioxide emissions in our atmosphere. So one of the solutions that are being implemented consists of carbon capture and storage.  
+    <p><br>There are numerous forms of renewable energy and fuels. For energy the fist things to come to mind are solar and wind energy. For fuels we have electric powered vehicles and ethanol. These energies can be produced using multiple different techniques. For example when it comes to renewable fuels, they can be produced from a variety of feedstocks that include municipal waste that potentially reduces the amount of waste that reaches landfills. So exploring different forms of renewable energy and fuels becomes more efficient at accomplishing the task.
+    <br> Currently, research is being done on how to potentially find a substitute for petroleum and other petroleum based fuels. Petroleum based fuels tend to release methane, which is a potent greenhouse gas, into the atmosphere. Not only this but more CO2 is included in these fuels which causes more emissions to be emitted into the atmosphere. Methane is considered a municipal waste which can be converted into biogasses and renewable natural fuels, which can be further used in existing natural gas pipelines. This mainly would impact transportation as it is one of the largest industries that emit the most greenhouse gasses. Since when it comes to solar and wind based energy, it is not deemed practical for many types of vehicle transportation. A good example of renewable fuels is hydrogen fuel cell vehicles.
+    <center><iframe style="width: 900px; height: 617.531px;" src="https://afdc.energy.gov/data/widgets/10424" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></center>
+    <center><p>Figure 1: Demonstrates the number of the renewable fuels that have been mandated and given Renewable Identification Number [RIN] given by different Agencies</p></center><br>
 
-    </p><br><h3>What is Carbon Capture?</h3><br>
-
-    <p>Carbon capture is capturing carbon dioxide from the atmosphere or from our industrial facilities. This is accomplished by separating the carbon dioxide from various gasses similar to how refineries work. After this is done, it is then processed and compressed to be easily transported through pipes to then be permanently stored more than 8,000 ft underground. This carbon can be used to create other products such as cement in order to prevent it from returning to the atmosphere.    </p>
-    <center><img class='graphs' src='../image/carboncapture.png'></center>
-    <center><p>Figure 1: Carbon Capture Process simplified</p></center><br>
-    
-    <p><br>When it comes to Carbon Capture, utilization, and storage (CCUS) facilities, they currently are capturing around 45 Megatons (Mt) of CO2 annually. There are nearly around 40 commercial capture facilities that are operational globally. Furthermore, 7 new large facilities became fully operational in January 2022 that capture around 100,000 tons of CO2 per year. Everywhere across the world, there are different capturing facilities being projected to be able to have the same common goal of creating a world with zero carbon emissions. Where 50 new capture facilities is the current target for 2030 across the world.
-    <center><img class='graphs' src='../image/planning.png'></center>
-    <center><p>Figure 2: Represents the Capacity of Current and Planned CCUS Facilities</p></center><br>
-
-    <p><br>These are a few countries that are on their mission to further increase the amount of CCUS facilities:
-
-    <br><br><b>United States</b> -  In 2021, the US passed the Infrastructure Investment and Jobs Act (IIJA), which gives 12 Billion USD across all of the CCUS value chain through 2026. Furthermore the Department of Energy has been actively working on and is currently working on announcing the Carbon Management Challenge which is making companies and industries try to find better ways to remove more carbon emissions.
-    <br><b>United Kingdom</b> -Under the Spring Budget 2023, 20 Billion GBP in funding was announced to be used for the development of CCUS. Particularly on the East Coast and in the North West of England and North Wales.
-    <br><b>Japan</b> - In January 2023, Japan had issued a CCUS roadmap which gives an annual CO2 storage target of 6-12 Mt CO2 per year for 2030 and 120-140 Mt CO2 per year in 2050.
-
-    </p><br><h3>Conclusion:</h3>
-
-    <p><br>With around 40 commercial facilities being in operation applying CCUS to industrial processes, fuel transformation and power generation. With over 500 projects in various different stages across the world, with ambitions to better the world and climate. Even if it is at the lowest of development, CCUS deployments would make around a third of the estimated 1.2 Gigatons (Gt) CO2 per year that require Zero Net Emissions by 2050. Which is Chevron’s ultimate goal. However, without a scaled development of CCUS and other carbon dioxide removal technologies, the goal of Zero Net Emissions is highly unlikely. Which is why so many people across the globe are working together to make this goal achievable.
-
+    <p>Furthermore, renewable fuels are not just limited to cars and boats but can be involved in aviation where airplanes can be powered by biomass-based fuels fit for aviation standards. The major challenge is the cost that comes with creating such fuels. Until more markets and having an increased demand in such fuels, there will be no profit or be used in any sort of form. Biorefineries can convert biomass and waste resources into value-added chemicals but must still compete against petroleum, which is already the go to option. However this is not considered to be the end of the hope of getting renewable fuels into the world. More research is being done to further reduce the costs of production and convince the people on the reliability of such fuels in the world. A great feat when it comes to renewable energy was in October 2018, where a commercial flight that contained 4,000 gallons of high-quality jet fuel made from ethanol (another fuel that is renewable) was in testing. This was an official flight that successfully flew across the Atlantic from Orlando, Florida to London, United Kingdom. 
     </p>
+    <center><img class='graphs' src='../image/ethanolpie.png'></center>
+    <center><p>Figure 2: Demonstration of Annual World Fuel Ethanol Production in 2020.</p></center><br>
+    
+    <h3>Set of fun facts from the Bottom Figure:</h3><br>
 
+    <p>
+    <br>Total U.S exports for the year were 1.43 gallons, which was the third highest volume on record.
+    <br>In December U.S ethanol exports shot up 34% to 155.6 million gallons.
+    <br>Shipments totaled 43.6 million gallons where 92% of that was denatured ethanol.
+    <br>So as further research is developed on different renewable fuels, the numbers are impressive how much is being produced and exported to multiple parts across the world.
+    </p>
+    <center><img class='graphs' src='../image/ethanolimport.png'></center>
+    <center><p>Figure 3: Demonstration of Monthly U.S Ethanol Imports and Exports In 2023</p></center><br>
     <?php
         if (isset($_POST['submit'])) {
-            $answer = "Answer1"; // Change this to the correct answer
+            $answer = "Answer2"; // Change this to the correct answer
             $selected_answer = array_keys($_POST['submit'])[0];
             $id = $_SESSION['id'];
             $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
@@ -97,13 +93,13 @@
     <div class="app">
         <h1>Question 1</h1>
         <div class="quiz">
-            <h2 id="question">Where is the majority of the captured carbon stored?</h2>
+            <h2 id="question">There has been any commercial flights that have used biofuels to complete a flight?</h2>
             <div id="answer-buttons">
                 <form method="post">
-                    <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">Underground</button>
-                    <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">Containers</button>
-                    <button class="btn" type="submit" name="submit[Answer3]" value="Answer3">Under the Sea</button>
-                    <button class="btn" type="submit" name="submit[Answer4]" value="Answer4">In the atmosphere</button>
+                    <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">Yes, but it wasn't full of people during the test flight.</button>
+                    <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">Yes, it was an official commercial flight carrying multiple people overseas.</button>
+                    <button class="btn" type="submit" name="submit[Answer3]" value="Answer3">No, because simply biofuels are not effective as standard fuels.</button>
+                    <button class="btn" type="submit" name="submit[Answer4]" value="Answer4">No, because why do we want to do that.</button>
                 </form>
             </div>
         </div>
@@ -111,7 +107,7 @@
     <?php } ?>
     <?php
         if (isset($_POST['submit1'])) {
-            $answer = "Answer2"; // Change this to the correct answer
+            $answer = "Answer1"; // Change this to the correct answer
             $selected_answer = array_keys($_POST['submit1'])[0];
             $id = $_SESSION['id'];
             $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
@@ -138,7 +134,7 @@
     <div class="app">
         <h1>Question 2</h1>
         <div class="quiz">
-            <h2 id="question">We cannot use captured carbon for other purposes (Such as vehicles, energy, etc.).</h2>
+            <h2 id="question">Can renewable fuel come from municipal waste?</h2>
             <div id="answer-buttons">
                 <form method="post">
                     <button class="btn" type="submit" name="submit1[Answer1]" value="Answer1">True</button>
@@ -150,7 +146,7 @@
     <?php } ?>
     <?php
         if (isset($_POST['submit2'])) {
-            $answer = "Answer1"; // Change this to the correct answer
+            $answer = "Answer3"; // Change this to the correct answer
             $selected_answer = array_keys($_POST['submit2'])[0];
             $id = $_SESSION['id'];
             $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
@@ -177,11 +173,13 @@
     <div class="app">
         <h1>Question 3</h1>
         <div class="quiz">
-            <h2 id="question">Carbon can be captured by taking it directly from the atmosphere or preventing it from entering the atmosphere.</h2>
+            <h2 id="question">There is only current research being done for vehicles and transportation</h2>
             <div id="answer-buttons">
                 <form method="post">
-                    <button class="btn" type="submit" name="submit2[Answer1]" value="Answer1">True</button>
-                    <button class="btn" type="submit" name="submit2[Answer2]" value="Answer2">False</button>
+                    <button class="btn" type="submit" name="submit2[Answer1]" value="Answer1">Yes and it is advancing rapidly creating new forms of alternative fuels.</button>
+                    <button class="btn" type="submit" name="submit2[Answer2]" value="Answer2">Yes but it is having some delays due to the safety of the public</button>
+                    <button class="btn" type="submit" name="submit2[Answer3]" value="Answer3">No as there is further research when it comes to discovering different things hydrogen can accomplish but it is still a issue of safety</button>
+                    <button class="btn" type="submit" name="submit2[Answer4]" value="Answer4">No because who doesn't want to find more renewable energy</button>
                 </form>
             </div>
         </div>

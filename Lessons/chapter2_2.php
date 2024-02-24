@@ -26,7 +26,6 @@
                 <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
                 <li><a href="../php/logout.php">Logout</a></li>
             </ul>
-            <a href="chapter1_2.php" class="action_btn">Next lesson</a>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -36,63 +35,33 @@
             <li><a href="../home.php">Home</a></li>
             <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
             <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
-            <li> <a href="chapter1_2.php" class="action_btn">Next lesson</a></li>
             <li><a href="../php/logout.php">Logout</a></li>
         </div>
     </header>
 
-    <h2>1.1. Hydrogen</h2>
+    <h2>2.2. Carbon Credits</h2>
     <h3>Introduction:</h3>
 
-    <p><br>Hydrogen (H2) is considered to be an alternative fuel source for domestic resources. These resources can involve vehicles such as buses, industrial vehicles and even may include standard vehicles we use everyday. These vehicles are known as FCEVs (Fuel Cell Electric Vehicles). Furthermore, hydrogen fuel cells can also be used for internal combustion engines, however, unlike FCEVs, it produces more tailpipe emissions and is less efficient. So it is not entirely useless but not useful for the environment. 
-
-    </p><br><h3>Hydrogen Gas:</h3><br>
-
-    <p>When it comes to hydrogen gas energy, 2.2 pounds of hydrogen gas is equivalent to 1 gallon (6.2 pounds) of gasoline. The reason for this is that since Hydrogen has a low volumetric energy density, it is stored onboard the vehicle as a compressed gas to achieve the proper driving range or a conventional vehicle. Currently this gas is being stored in high-pressure tanks that are capable of storing around 5,000 to 10,000 pounds per square inch (PSI). In the graph demonstrated below we have the average fueling times for FCEVs. As we can clearly see for the standard refueling time, it is estimated to take around 4 minutes to fill up the tank with hydrogen. 
+    <p><br>Carbon credits are known as carbon allowances, similar to how permission slips work but for emissions. A company can purchase carbon credits, usually from the government, and gain permission to generate one ton of CO2 emissions. It is similar to how you decide to buy storage for your mobile device to be able to keep more items. Companies tend to sell their carbon credits to other companies when they exceed the cap of carbon emissions they can emit. To truly understand how Carbon credits function, it is important to look into the standpoint of it.
+    <br> For starters, the average American generates 16 tons of CO2 a year doing motions of everyday life. This makes it so that one ton of carbon is actually more than what a person would think or expect. So after knowing this information on how much one ton is worth. Companies and facilities produce more tons of CO2 and are emitted into the atmosphere. Now there are different markets that must be kept in mind. There are 4 Carbon markets:
+    <br><br><b>Regulated Market</b> - It is considered a “cap and trade” that is regulated at a regional and state level. 
+    <br><b>Voluntary Market</b> - This market is intended for businesses and individuals to buy credits to offset carbon emissions. For example, Company 1 and Company 2 are limited to only emit 400 tons of CO2, however, Company 1 emits 500 tons of CO2 while Company 2 only emits 300 tons. Company 1 can buy off the credits that Company 2 still has remaining so that it is considered to not go over the limit. When it comes to this market, it was roughly estimated that it was worth around $400 million dollars and is forecasted to be worth $10-25 Billion by 2030. This all depends on how many countries actually try to pursue and tackle these issues on Greenhouse gasses.
+    <br><b>Global Compliance Market</b> - It is the world-wide market for carbon credits. According to Refintiv the total market size is 261 Billion USD, which represents around 10.3 Gt CO2 in equivalent trades in 2020.
+    <br><b>Carbon Compliance Market</b> - This market is dependent on the nation that is being recorded. As previously mentioned, this market is only defined in one region of the world. For example, there are Carbon Compliance Markets in China, European Union, and the United States.
     </p>
-    <center><img class='graphs' src='../image/fuelgraph.png'></center>
-    <center><p>Figure 1: FCEV Fueling Times</p></center><br>
-    
-    <h3>Creating Hydrogen:</h3><br>
 
-    <p><br>Currently there are 4 different methods of producing hydrogen: 
+    <center><img class='graphs' src='../image/globalmarket.png'></center>
+    <center><p>Figure 1: Demonstrates Global Compliance Market between 2017-2020</p></center><br>
 
-    <br><br><b>Natural Gas Reforming</b> - Synthesis gas is a mixture of hydrogen and carbon monoxide, and a small amount of carbon dioxide and is created with high-temperature steam. This makes it so that the chemical reaction produces hydrogen when it is reacted with water. With incorporating carbon capture it makes it effective to produce hydrogen.
-    <br><b>Electrolysis</b> - It is the process of using electric currents to split water into hydrogen and oxygen. Since the current goal is to make renewable energy, such as solar or wind, getting hydrogen from this method would be considered renewable as it would provide more opportunities for hydrogen powered projects.
-    <br><b>Biomass-Derived Liquid Reforming</b> - They are renewable liquid fuels, such as ethanol, that are reacted in high-temperature steam to produce hydrogen when it is near the end of its life.
-    <br><b>Microbial Biomass Conversion</b> - This method uses biomass to then convert it into sugar-rich feedstocks that are later fermented to make hydrogen.
-
-    <br><br>There different ways are currently used as they are fully researched and are proven to be effective in production, however, there 3 methods that are in development:
-
-    <br><br><b>Thermochemical Water Splitting</b> - This method would use high temperatures generated by solar concentrators or nuclear reactors that create chemical reactions to be able to then split water to produce hydrogen
-    <br><b>Photobiological Water Splitting</b> - Microbes, such as green algae, consume water in the presence of sunlight that produce hydrogen as a byproduct.
-    <br><b>Photoelectrochemical Water Splitting</b> - This process produces hydrogen from water using special semiconductors and energy from sunlight.
-
-    <br><br>These methods will prove to be useful and effective with other methods of producing renewable energy. It will be able to provide alternatives within each of the following categories. Every method will boost the efficiency and reduce the emissions from multiple sources that highly produce carbon emissions.
-
-    </p><br><h3>Methods of Transporting Hydrogen:</h3>
-
-    <p><br>Not currently with the research that has been done, there are 3 distributing methods that are crucial for safely transporting hydrogen, however, each method has its disadvantages due to either the costs or due to the limitations and conditions. 
-
-    <br><br><b>Pipeline</b> - This form of distribution is considered the least-expensive method of delivering large volumes of hydrogen gas. Yet the capacity is limited due to there only being about 1,600 miles of pipelines in the United States. These pipelines are mainly located near large petroleum refineries and chemical plants in Illinois, California, and the Gulf Coast.
-    <br><b>High-Pressure Tube Trailers</b> - This method would be similar to how we transport gallons of gasoline, using boats, railcars and trailers, however, each vehicle must be containing highly expensive high-pressure tubes that are limited to only 200 or less miles.
-    <br><b>Liquified Hydrogen Tankers</b> - This method uses Cryogenic liquefaction which is the process that cools hydrogen to a temperature where it becomes a liquid. Although the liquefaction process is expensive, it enables hydrogen to be transported more efficiently over longer distances. This can be accomplished by using trucks, ships, or even barges. As another side of this, the hydrogen delivery and consumption rates must be carefully matched.
-
-    </p><br><h3>Hydrogen Storage and Stations:</h3>
-
-    <p><br>When it comes to the U.S Department of Energy (DOE), their research and development team wants to improve technology to be able to safely and store enough FCEVs. The purpose of this project is to be able to substitute conventional vehicles by making them be able to run for at least 300 miles without making these vehicles contain excessive space or adding unnecessary weight to the vehicle.
-
-    <br><br>Furthermore, around half of the U.S population lives in areas where air pollution levels are higher than the recommended safety level for human health. Such emissions from gasoline and diesel vehicles which include nitrogen oxides, hydrocarbons and particulate matter. So when it comes to FCEVs, they do not emit any of these substances that cause damage to the environment, only water (H20) and warm air.
-
+    <p><br>Now that Carbon Markets have been described. We now go into further detail on what is considered a Carbon Offset or Carbon Credit. When it comes to carbon offsets, they are considered forms or technologies of removing Greenhouse Gasses (GHGs) from the atmosphere. Also generally are transacted to the Voluntary Carbon Market. A good example of Carbon offsetting is carbon capture because it is removing GHGs from the atmosphere and being used in alternative energy or being stored underground. While carbon credits are considered a reduction in GHGs released into the atmosphere. This is generally transacted in the Carbon Compliance Market. A good example of carbon credits is imagining them as a credit card. You are borrowing money that you later pay back. Like what was given about the two companies, they are considered carbon credits because they are not removing carbon but instead reducing between each other.
     </p>
-    <center><iframe style="width: 900px; height: 664.594px;" src="https://afdc.energy.gov/data/widgets/10802" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></center>
-    <center><p>Figure 2: Represents the Emissions for Greenhouse Gases</p></center><br>
-    <center><iframe style="width: 900px; height: 708.354px;" src="https://afdc.energy.gov/data/widgets/10379" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></center>
-    <center><p>Figure 3: Demonstrates the cities of the U.S that are considered clean</p></center><br>
-    <p><br>Additionally, FCEVs are powered by hydrogen. As mentioned previously, FCEVs do not produce any harmful emissions and are looking at implementing a system almost similar to how we currently use gas stations and charging stations for electric vehicles. The U.S Department of Energy is working on developing affordable FCEVs and safe for transportation but most importantly environmental friendly.</p>
+    <center><img class='graphs' src='../image/carboncredit.png'></center>
+    <center><p>Figure 2: This demonstrates how many Carbon credits were issued and retired in the Voluntary Carbon Market from 2007 to 2021</p></center><br>
+    <p><br>Since carbon markets are used by large companies and major corporations, it is unlikely that you are able to purchase carbon offsets as a single individual directly from a company like Chevron. Yet there are different alternative websites that are considered third-party companies that allow you to buy carbon offsets as intermedians. So it is not completely impossible to join the rest of companies that purchase carbon offsets, it is just unlikely and might be considered a scam. Therefore, when it comes to Carbon credits and how the market of carbon functions, it benefits companies to be able to purchase carbon credits and be able to purchase carbon offsets because it prevents companies from over emitting tons of carbon and at the same time invests into carbon offsets to continue the road to Zero Net Emissions.
+    </p>
     <?php
         if (isset($_POST['submit'])) {
-            $answer = "Answer3"; // Change this to the correct answer
+            $answer = "Answer4"; // Change this to the correct answer
             $selected_answer = array_keys($_POST['submit'])[0];
             $id = $_SESSION['id'];
             $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
@@ -119,13 +88,14 @@
     <div class="app">
         <h1>Question 1</h1>
         <div class="quiz">
-            <h2 id="question">Which of the following is not a way of transporting hydrogen?</h2>
+            <h2 id="question">How much carbon does the average American generate per year?</h2>
             <div id="answer-buttons">
                 <form method="post">
-                    <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">Pipelines</button>
-                    <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">High Pressure Tube Trailers</button>
-                    <button class="btn" type="submit" name="submit[Answer3]" value="Answer3">Planes</button>
-                    <button class="btn" type="submit" name="submit[Answer4]" value="Answer4">Liquified Hydrogen Tankers</button>
+                    <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">19 tons</button>
+                    <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">14 tons</button>
+                    <button class="btn" type="submit" name="submit[Answer3]" value="Answer3">10 tons</button>
+                    <button class="btn" type="submit" name="submit[Answer4]" value="Answer4">16 tons</button>
+                    <button class="btn" type="submit" name="submit[Answer5]" value="Answer5">17 tons</button>
                 </form>
             </div>
         </div>
@@ -160,11 +130,14 @@
     <div class="app">
         <h1>Question 2</h1>
         <div class="quiz">
-            <h2 id="question">You can technically use hydrogen in internal combustion engines and it would be more efficient and less tailpipe emissions would be produced.</h2>
+            <h2 id="question">How many different types of carbon markets are there in the world?</h2>
             <div id="answer-buttons">
                 <form method="post">
-                    <button class="btn" type="submit" name="submit1[Answer1]" value="Answer1">True</button>
-                    <button class="btn" type="submit" name="submit1[Answer2]" value="Answer2">False</button>
+                    <button class="btn" type="submit" name="submit1[Answer1]" value="Answer1">1</button>
+                    <button class="btn" type="submit" name="submit1[Answer2]" value="Answer2">4</button>
+                    <button class="btn" type="submit" name="submit1[Answer3]" value="Answer3">3</button>
+                    <button class="btn" type="submit" name="submit1[Answer4]" value="Answer4">2</button>
+                    <button class="btn" type="submit" name="submit1[Answer5]" value="Answer5">5</button>
                 </form>
             </div>
         </div>
@@ -199,12 +172,13 @@
     <div class="app">
         <h1>Question 3</h1>
         <div class="quiz">
-            <h2 id="question">Which of the following is already used to develop and produce hydrogen?</h2>
+            <h2 id="question">Which of these can companies create offsets in carbon?</h2>
             <div id="answer-buttons">
                 <form method="post">
-                    <button class="btn" type="submit" name="submit2[Answer1]" value="Answer1">Electrolysis</button>
-                    <button class="btn" type="submit" name="submit2[Answer2]" value="Answer2">Thermochemical Water Splitting</button>
-                    <button class="btn" type="submit" name="submit2[Answer3]" value="Answer3">Photoelectrochemical Water Splitting</button>
+                    <button class="btn" type="submit" name="submit2[Answer1]" value="Answer1">Investing in Renewable Energy</button>
+                    <button class="btn" type="submit" name="submit2[Answer2]" value="Answer2">More fossil fuels</button>
+                    <button class="btn" type="submit" name="submit2[Answer3]" value="Answer3">Increase Mass Production of Gas Vehicles</button>
+                    <button class="btn" type="submit" name="submit2[Answer4]" value="Answer4">Improving energy efficiency by increasing the production of energy with burning fossil fuels</button>
                 </form>
             </div>
         </div>
@@ -212,7 +186,7 @@
     <?php } ?>
     <?php
         if (isset($_POST['submit3'])) {
-            $answer = "Answer4"; // Change this to the correct answer
+            $answer = "Answer1"; // Change this to the correct answer
             $selected_answer = array_keys($_POST['submit3'])[0];
             $id = $_SESSION['id'];
             $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
@@ -239,13 +213,11 @@
     <div class="app">
         <h1>Question 4</h1>
         <div class="quiz">
-            <h2 id="question">Which of the following is considered to be the negative of transporting Hydrogen through pipelines.</h2>
+            <h2 id="question">Can anyone buy carbon from companies?</h2>
             <div id="answer-buttons">
                 <form method="post">
-                    <button class="btn" type="submit" name="submit3[Answer1]" value="Answer1">Too expensive</button>
-                    <button class="btn" type="submit" name="submit3[Answer2]" value="Answer2">Not enough distance between places</button>
-                    <button class="btn" type="submit" name="submit3[Answer3]" value="Answer3">Dangerous to the Environment</button>
-                    <button class="btn" type="submit" name="submit3[Answer4]" value="Answer4">Low Capacity of pipelines</button>
+                    <button class="btn" type="submit" name="submit3[Answer1]" value="Answer1">True</button>
+                    <button class="btn" type="submit" name="submit3[Answer2]" value="Answer2">False</button>
                 </form>
             </div>
         </div>
