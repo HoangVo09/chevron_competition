@@ -278,20 +278,20 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    width: 95vh; /* Make each link take full width */
+    width: 100vh; /* Make each link take full width */
     background-color: #888686;
 }
 
 .lesson a:hover {
     background-color: #888686;
 }
-.chapter {
+.segment {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.chapter ul {
+.segment ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -299,21 +299,6 @@ body {
     align-items: stretch; /* Stretch items to full width */
 }
 
-.chapter li {
+.segment li {
     text-align: center;
-}
-
-.chapter a {
-    text-decoration: none;
-    color: black;
-    display: block;
-    padding: 20px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    width: 100vh; /* Make each link take full width */
-    background-color: #808080;
-}
-
-.chapter a:hover {
-    background-color: #808080;
 }

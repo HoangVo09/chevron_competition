@@ -83,9 +83,10 @@
         <li>
             <div><a href='#'><p>2.2. Carbon offsets</p></a></div>
         </li>
-        <li><div><a href='#'><p>3. Leaderboard</p></a></div></li>
     </ul> 
     </div>
+    <div class="segment"><ul><li><div><a href='#'><p>3. Leaderboard</p></a></div></li></ul></div>
+        
     </main>
 
 
