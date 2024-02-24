@@ -7,9 +7,8 @@
 }
 
 body {
-    height: 50vh;
-    background-color: #000;
-    background-image: url('Image/Chevron.jpg');
+    height: 100vh;
+    background-color: #fffafa;
     background-size: cover;
     background-position: center;
 }
@@ -31,6 +30,11 @@ a:hover{
 header{
     position:relative;
     padding: 0 2rem;
+    height: 100vh;
+    background-color: #000;
+    background-image: url('Image/Chevron.jpg');
+    background-size: cover;
+    background-position: center;
 }
 .navbar {
     width:100%;
