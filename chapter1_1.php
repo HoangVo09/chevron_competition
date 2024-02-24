@@ -78,10 +78,10 @@
         <div class="quiz">
             <h2 id="question">Question go here</h2>
             <div id="answer-buttons">
-                    <button class="btn" type="submit" name="answer" value="Answer1">Answer1</button>
-                    <button class="btn" type="submit" name="answer" value="Answer2">Answer2</button>
-                    <button class="btn" type="submit" name="answer" value="Answer3">Answer3</button>
-                    <button class="btn" type="submit" name="answer" value="Answer4">Answer4</button>
+                    <button class="btn" type="submit" name="submit" value="Answer1">Answer1</button>
+                    <button class="btn" type="submit" name="submit" value="Answer2">Answer2</button>
+                    <button class="btn" type="submit" name="submit" value="Answer3">Answer3</button>
+                    <button class="btn" type="submit" name="submit" value="Answer4">Answer4</button>
             </div>
         </div>
     </div>

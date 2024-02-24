@@ -16,7 +16,7 @@
             <?php
 
                 include("config.php");
-                if(isset($_POST['subm'])){
+                if(isset($_POST['submit'])){
                     $email = mysqli_real_escape_string($con, $_POST['email']);
                     $password = mysqli_real_escape_string($con,$_POST['password']);
                     $result = mysqli_query($con, "SELECT * FROM users WHERE Email='$email' AND Password='$password'") or die("Select Error");
@@ -48,7 +48,7 @@
                     <input type="password" name="password" id="password" required>
                 </div>
                 <div class="field">
-                    <input type="submit" class="btn" name="submi" value="Login" required>
+                    <input type="submit" class="btn" name="submit" value="Login" required>
                 </div>
                 <div class="links">
                     Don't have account? <a href="register.php">Sign Up Now</a>
