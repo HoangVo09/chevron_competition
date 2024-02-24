@@ -1,32 +1,33 @@
 <?php
-    session_start();
+session_start();
 
-    include("config.php");
+include("config.php");
 
-    // Check if the user is logged in
-    if (!isset($_SESSION['valid'])) {
-        header("Location: index.php");
-        exit;
+// Check if the user is logged in
+if (!isset($_SESSION['valid'])) {
+    header("Location: index.php");
+    exit;
+}
+
+// Handle form submission
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Retrieve user's selected answer
+    $selectedAnswer = $conn->real_escape_string($_POST["answer"]);
+
+    // Define the correct answer
+    $correctAnswer = "Answer2"; // Change this to the correct answer
+
+    // Check if the selected answer is correct
+    $scoreChange = 0;
+    if ($selectedAnswer === $correctAnswer) {
+        $scoreChange = 5;
+    } else {
+        // If the score is greater than 0, deduct 1 point
+        $scoreChange = ($_POST["score"] > 0) ? -1 : 0;
     }
 
-    // Handle form submission
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Retrieve user's selected answer
-        $selectedAnswer = $conn->real_escape_string($_POST["answer"]);
-
-        // Define the correct answer
-        $correctAnswer = "Answer2"; // Change this to the correct answer
-
-        // Check if the selected answer is correct
-        $scoreChange = 0;
-        if ($selectedAnswer === $correctAnswer) {
-            $scoreChange = 5;
-        } else {
-            // If the score is greater than 0, deduct 1 point
-            $scoreChange = ($_POST["score"] > 0) ? -1 : 0;
-        }
-
-        // Update the score in the database
+    // Update the score in the database if $conn is set
+    if ($conn) {
         $sql = "UPDATE users SET Score = Score + $scoreChange WHERE Id = {$_SESSION['Id']}";
         
         if ($conn->query($sql) === TRUE) {
@@ -34,16 +35,23 @@
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
+    } else {
+        echo "Database connection is not available.";
     }
+}
 
-    // Retrieve the current score
+// Retrieve the current score if $conn is set
+if ($conn) {
     $result = $conn->query("SELECT Score FROM users WHERE Id = {$_SESSION['Id']}");
-    if ($result->num_rows > 0) {
+    if ($result && $result->num_rows > 0) {
         $row = $result->fetch_assoc();
         $currentScore = $row["Score"];
     } else {
         $currentScore = 0;
     }
+} else {
+    echo "Database connection is not available.";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
