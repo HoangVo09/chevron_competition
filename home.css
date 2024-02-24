@@ -9,7 +9,7 @@
 body {
     height: 100vh;
     background-color: #000;
-    background-image: url('Images/Chevron.jpg');
+    background-image: url('Image/Chevron.jpg');
     background-size: cover;
     background-position: center;
 }
