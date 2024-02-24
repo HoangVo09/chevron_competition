@@ -325,13 +325,13 @@ body {
     color: red;
 }
 
-.center {
+.centerlead {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.center ul {
+.centerlead ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -339,11 +339,11 @@ body {
     align-items: stretch; /* Stretch items to full width */
 }
 
-.center li {
+.centerlead li {
     text-align: center;
 }
 
-.center a {
+.centerlead a {
     text-decoration: none;
     color: black;
     display: block;
@@ -354,6 +354,6 @@ body {
     background-color: #888686;
 }
 
-.center a:hover {
+.centerlead a:hover {
     background-color: #888686;
 }
