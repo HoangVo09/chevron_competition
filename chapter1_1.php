@@ -77,7 +77,7 @@
 
     When it comes to hydrogen gas energy, 2.2 pounds of hydrogen gas is equivalent to 1 gallon (6.2 pounds) of gasoline. The reason for this is that since Hydrogen has a low volumetric energy density, it is stored onboard the vehicle as a compressed gas to achieve the proper driving range or a conventional vehicle. Currently this gas is being stored in high-pressure tanks that are capable of storing around 5,000 to 10,000 pounds per square inch (PSI). In the graph demonstrated below we have the average fueling times for FCEVs. As we can clearly see for the standard refueling time, it is estimated to take around 4 minutes to fill up the tank with hydrogen. 
     </p>
-    <img class='graphs'url='Image/Fueling Times.png' src = "fuel graph" width="250" height="400">
+    <center><img class='graphs'url='fuelgraph.png' src = "fuel graph" width="250" height="300"></center>
     <center><p>Figure 1: FCEV Fueling Times</p></center>
 
     <div class="app">
