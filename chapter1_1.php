@@ -8,15 +8,14 @@
         exit;
     }
 
-    $answer = "Answer2"; // Change this to the correct answer
 
     if (isset($_POST['submit'])) {
+        $answer = "Answer2"; // Change this to the correct answer
         $selected_answer = $_POST['value'];
         $id = $_SESSION['id'];
         $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
         $row = mysqli_fetch_assoc($result);
         $score = $row['Score'];
-        echo "<p>$score<p>";
 
         if ($selected_answer == $answer) {
             $score = $score + 5;
@@ -79,12 +78,10 @@
         <div class="quiz">
             <h2 id="question">Question go here</h2>
             <div id="answer-buttons">
-                <form action="" method="post">
                     <button class="btn" type="submit" name="answer" value="Answer1">Answer1</button>
                     <button class="btn" type="submit" name="answer" value="Answer2">Answer2</button>
                     <button class="btn" type="submit" name="answer" value="Answer3">Answer3</button>
                     <button class="btn" type="submit" name="answer" value="Answer4">Answer4</button>
-                </form>
             </div>
         </div>
     </div>
