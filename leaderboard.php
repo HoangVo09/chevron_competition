@@ -20,7 +20,7 @@
     </header>
 
     <h2>The Leaderboard</h2>
-    <table class='leaderboard'>
+    <table class='center'>
         <tr>
             <th>Rank</th>
             <th>Username</th>
