@@ -46,14 +46,14 @@
 
     <p><br>Hydrogen (H2) is considered to be an alternative fuel source for domestic resources. These resources can involve vehicles such as buses, industrial vehicles and even may include standard vehicles we use everyday. These vehicles are known as FCEVs (Fuel Cell Electric Vehicles). Furthermore, hydrogen fuel cells can also be used for internal combustion engines, however, unlike FCEVs, it produces more tailpipe emissions and is less efficient. So it is not entirely useless but not useful for the environment. 
 
-    </p><br><br><h3>Hydrogen Gas:</h3><br><br>
+    </p><br><h3>Hydrogen Gas:</h3><br>
 
     <p>When it comes to hydrogen gas energy, 2.2 pounds of hydrogen gas is equivalent to 1 gallon (6.2 pounds) of gasoline. The reason for this is that since Hydrogen has a low volumetric energy density, it is stored onboard the vehicle as a compressed gas to achieve the proper driving range or a conventional vehicle. Currently this gas is being stored in high-pressure tanks that are capable of storing around 5,000 to 10,000 pounds per square inch (PSI). In the graph demonstrated below we have the average fueling times for FCEVs. As we can clearly see for the standard refueling time, it is estimated to take around 4 minutes to fill up the tank with hydrogen. 
     </p>
     <center><img class='graphs' src='../Image/fuelgraph.png'></center>
     <center><p>Figure 1: FCEV Fueling Times</p></center><br>
     
-    <h3>Creating Hydrogen:</h3><br><br>
+    <h3>Creating Hydrogen:</h3<br>
 
     <p><br>Currently there are 4 different methods of producing hydrogen: 
 
@@ -70,7 +70,7 @@
 
     <br><br>These methods will prove to be useful and effective with other methods of producing renewable energy. It will be able to provide alternatives within each of the following categories. Every method will boost the efficiency and reduce the emissions from multiple sources that highly produce carbon emissions.
 
-    </p><br><br><h3>Methods of Transporting Hydrogen:</h3>
+    </p><br><h3>Methods of Transporting Hydrogen:</h3>
 
     <p><br>Not currently with the research that has been done, there are 3 distributing methods that are crucial for safely transporting hydrogen, however, each method has its disadvantages due to either the costs or due to the limitations and conditions. 
 
@@ -78,7 +78,7 @@
     <br>High-Pressure Tube Trailers - This method would be similar to how we transport gallons of gasoline, using boats, railcars and trailers, however, each vehicle must be containing highly expensive high-pressure tubes that are limited to only 200 or less miles.
     <br>Liquified Hydrogen Tankers - This method uses Cryogenic liquefaction which is the process that cools hydrogen to a temperature where it becomes a liquid. Although the liquefaction process is expensive, it enables hydrogen to be transported more efficiently over longer distances. This can be accomplished by using trucks, ships, or even barges. As another side of this, the hydrogen delivery and consumption rates must be carefully matched.
 
-    </p><br><br><h3>Hydrogen Storage and Stations:</h3>
+    </p><br><h3>Hydrogen Storage and Stations:</h3>
 
     <p><br>When it comes to the U.S Department of Energy (DOE), their research and development team wants to improve technology to be able to safely and store enough FCEVs. The purpose of this project is to be able to substitute conventional vehicles by making them be able to run for at least 300 miles without making these vehicles contain excessive space or adding unnecessary weight to the vehicle.
 
