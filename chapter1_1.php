@@ -37,7 +37,7 @@
     }
 
     // Retrieve the current score
-    $result = $conn->query("SELECT Score FROM users WHERE Id = {$_SESSION['Id']}");
+    $result = $con->query("SELECT Score FROM users WHERE Id = {$_SESSION['Id']}");
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
         $currentScore = $row["Score"];
