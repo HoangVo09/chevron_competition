@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    include("config.php");
+    include("php/config.php");
     if(!isset($_SESSION['valid'])){
         header("Location: index.php");
     }
@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="Style/home.css">
     <title>Home</title>
 </head>
 <body>
@@ -63,7 +63,7 @@
             <div><p>1. Innovative energy sources</p></div>
         </li>
         <li>
-            <div><a href='chapter1_1.php'><p>1.1. Hydrogen</p></a></div>
+            <div><a href='Lessons/chapter1_1.php'><p>1.1. Hydrogen</p></a></div>
         </li>
         <li>
             <div><a href='#'><p>1.2. Renewable fuels</p></a></div>
@@ -76,7 +76,7 @@
             <div><p>2. Waste/Gas management.</p></div>
         </li>
         <li>
-            <div><a href='#'><p>2.1. Carbon capture, utilization, and storage (CCUS)</p></a></div>
+            <div><a href='Lessons/chapter2_1.php'><p>2.1. Carbon capture, utilization, and storage (CCUS)</p></a></div>
         </li>
         <li>
             <div><a href='#'><p>2.2. Carbon offsets</p></a></div>

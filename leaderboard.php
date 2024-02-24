@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    include("config.php");
+    include("php/config.php");
     if(!isset($_SESSION['valid'])){
         header("Location: index.php");
     }
@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
-    <link rel="stylesheet" href="Test.css">
+    <link rel="stylesheet" href="Style/Test.css">
 </head>
 <body>
     <header>
@@ -24,7 +24,6 @@
                 <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
                 <li><a href="php/logout.php">Logout</a></li>
             </ul>
-            <a href="#" class="action_btn">Next lesson</a>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
             </div>

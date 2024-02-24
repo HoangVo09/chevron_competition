@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Style/index.css">
     <title>Sign Up</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
         
         <?php
 
-            include("config.php");
+            include("php/config.php");
             //Create a push for database
             if(isset($_POST['submit'])){
                 $username = $_POST['username'];
