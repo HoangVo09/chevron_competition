@@ -75,7 +75,7 @@
                         echo "<a href='chapter1_1.php'><button class='btn'>Go Back</button>";
                     }
 
-                }else{
+                }
             ?>
             <h2 id="question">Question go here</h2>
             <div id="answer-buttons">
@@ -86,7 +86,6 @@
                     <button class="btn" type="submit" name="answer" value="Answer4">Answer4</button>
                 </form>
             </div>
-            <?php}?>
         </div>
     </div>
      <!---Footer--->
