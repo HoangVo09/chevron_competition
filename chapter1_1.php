@@ -4,7 +4,7 @@
     include("config.php");
 
     // Check if the user is logged in
-    if(!isset($_SESSION['valid'])){
+    if (!isset($_SESSION['valid'])) {
         header("Location: index.php");
         exit;
     }
@@ -12,7 +12,7 @@
     // Handle form submission
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Retrieve user's selected answer
-        $selectedAnswer = $_POST["answer"];
+        $selectedAnswer = $conn->real_escape_string($_POST["answer"]);
 
         // Define the correct answer
         $correctAnswer = "Answer2"; // Change this to the correct answer
@@ -32,12 +32,12 @@
         if ($conn->query($sql) === TRUE) {
             echo "Score updated successfully!";
         } else {
-            echo "Error: " . $sql . "<br>" . $con->error;
+            echo "Error: " . $sql . "<br>" . $conn->error;
         }
     }
 
     // Retrieve the current score
-    $result = $con->query("SELECT Score FROM users WHERE Id = {$_SESSION['Id']}");
+    $result = $conn->query("SELECT Score FROM users WHERE Id = {$_SESSION['Id']}");
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
         $currentScore = $row["Score"];
