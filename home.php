@@ -63,15 +63,22 @@
     </main>
     <div class="lession">
     <ul> 
-     <li>
-        <div ><a href ='#'><p>text 1</p></div>
-     </li>
-     <li>
-        <div ><a href ='#'><p>text 2</p></div>
-     </li>
-     <li>
-        <div ><a href ='#'><p>text 3</p></div>
-     </li>
+        <li>
+            <div><a href='chapter1_1.php'><p>1.1. Hydrogen</p></a></div>
+        </li>
+        <li>
+            <div><a href='#'><p>1.2. Renewable fuels</p></a></div>
+        </li>
+    </ul> 
+    </div>
+    <div class="lession">
+    <ul> 
+        <li>
+            <div><a href='#'><p>2.1. Carbon capture, utilization, and storage (CCUS)</p></a></div>
+        </li>
+        <li>
+            <div><a href='#'><p>2.2. Carbon offsets</p></a></div>
+        </li>
     </ul> 
     </div>
 
