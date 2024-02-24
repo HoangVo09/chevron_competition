@@ -132,9 +132,9 @@
     </div>
     <?php } ?>
     <?php
-        if (isset($_POST['submit'])) {
+        if (isset($_POST['submit1'])) {
             $answer = "Answer2"; // Change this to the correct answer
-            $selected_answer = array_keys($_POST['submit'])[0];
+            $selected_answer = array_keys($_POST['submit1'])[0];
             $id = $_SESSION['id'];
             $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
             $row = mysqli_fetch_assoc($result);
@@ -163,8 +163,8 @@
             <h2 id="question">You can technically use hydrogen in internal combustion engines and it would be more efficient and less tailpipe emissions would be produced.</h2>
             <div id="answer-buttons">
                 <form method="post">
-                    <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">True</button>
-                    <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">False</button>
+                    <button class="btn" type="submit" name="submit1[Answer1]" value="Answer1">True</button>
+                    <button class="btn" type="submit" name="submit1[Answer2]" value="Answer2">False</button>
                 </form>
             </div>
         </div>
