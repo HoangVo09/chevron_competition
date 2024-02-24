@@ -11,9 +11,6 @@ body {
     background-color: #00416a;
     background-size: cover;
     background-position: center;
-    background-image: url('../Image/chevron_new_img.jpg');
-    background-size: cover;
-    background-position: center;
 }
 
 li {
@@ -35,6 +32,9 @@ header{
     padding: 0 2rem;
     height: 100vh;
     background-color: #804f4f;
+    background-image: url('../Image/chevron_new_img.jpg');
+    background-size: cover;
+    background-position: center;
 
 }
 .navbar {

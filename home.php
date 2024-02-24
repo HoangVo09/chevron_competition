@@ -46,43 +46,45 @@
                 </div>
             </div>
         </div>
-    </header>      
-    <main>
         <section id="hero">
-                <h1>Welcome</h1>
-                <p>
-                    This website serves as a guide to navigate through innovative solutions pertaining to diverse <br>
-                    and environmentally friendly energy options for Chevron.
-                </p>
+            <h1>Welcome</h1>
+            <p>
+                This website serves as a guide to navigate through innovative solutions pertaining to diverse <br>
+                and environmentally friendly energy options for Chevron.
+            </p>
         </section>
-        <div class="lesson">
-        <ul> 
-            <li>
-                <div><p>1. Innovative energy sources</p></div>
-            </li>
-            <li>
-                <div><a href='Lessons/chapter1_1.php'><p>1.1. Hydrogen</p></a></div>
-            </li>
-            <li>
-                <div><a href='#'><p>1.2. Renewable fuels</p></a></div>
-            </li>
-        </ul> 
-        </div>
-        <div class="lesson">
-        <ul> 
-            <li>
-                <div><p>2. Waste/Gas management.</p></div>
-            </li>
-            <li>
-                <div><a href='Lessons/chapter2_1.php'><p>2.1. Carbon capture, utilization, and storage (CCUS)</p></a></div>
-            </li>
-            <li>
-                <div><a href='#'><p>2.2. Carbon offsets</p></a></div>
-            </li>
-        </ul> 
-        </div>
-        <div class="segment"><ul><li><div><a href='leaderboard.php'><p>3. Leaderboard</p></a></div></li></ul></div>
-            
+
+        
+    </header>
+    <main>
+    <div class="lesson">
+    <ul> 
+        <li>
+            <div><p>1. Innovative energy sources</p></div>
+        </li>
+        <li>
+            <div><a href='Lessons/chapter1_1.php'><p>1.1. Hydrogen</p></a></div>
+        </li>
+        <li>
+            <div><a href='#'><p>1.2. Renewable fuels</p></a></div>
+        </li>
+    </ul> 
+    </div>
+    <div class="lesson">
+    <ul> 
+        <li>
+            <div><p>2. Waste/Gas management.</p></div>
+        </li>
+        <li>
+            <div><a href='Lessons/chapter2_1.php'><p>2.1. Carbon capture, utilization, and storage (CCUS)</p></a></div>
+        </li>
+        <li>
+            <div><a href='#'><p>2.2. Carbon offsets</p></a></div>
+        </li>
+    </ul> 
+    </div>
+    <div class="segment"><ul><li><div><a href='leaderboard.php'><p>3. Leaderboard</p></a></div></li></ul></div>
+        
     </main>
 
 
