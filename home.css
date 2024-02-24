@@ -275,7 +275,7 @@ body {
     text-decoration: none;
     color: black;
     display: block;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ccc;
     box-sizing: border-box;
     width: 95vh; /* Make each link take full width */
@@ -307,7 +307,7 @@ body {
     text-decoration: none;
     color: black;
     display: block;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ccc;
     box-sizing: border-box;
     width: 100vh; /* Make each link take full width */
