@@ -254,7 +254,7 @@ body {
     }
 }
 .lesson {
-    width: 95vh;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -286,7 +286,7 @@ body {
     background-color: #888686;
 }
 .chapter {
-    width: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
