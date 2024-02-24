@@ -7,33 +7,6 @@
         header("Location: index.php");
         exit;
     }
-
-
-    if (isset($_POST['submit'])) {
-        $answer = "Answer2"; // Change this to the correct answer
-        $selected_answer = array_keys($_POST['submit'])[0];
-        $id = $_SESSION['id'];
-        $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
-        $row = mysqli_fetch_assoc($result);
-        $score = $row['Score'];
-
-        if ($selected_answer == $answer) {
-            $score = $score + 5;
-        } else {
-            if ($score >= 1) {
-                $score = $score - 1;
-            }
-        }
-
-        $edit_query = mysqli_query($con, "UPDATE users SET Score='$score' WHERE Id=$id") or die("Error occurred");
-
-        if ($edit_query) {
-            echo "<div class='message'>
-                    <p>Your total score is $score</p>
-                </div> <br>";
-            echo "<a href='chapter1_1.php'><button class='btn'>Go Back</button>";
-        }
-    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -117,7 +90,33 @@
     <center><iframe style="width: 900px; height: 708.354px;" src="https://afdc.energy.gov/data/widgets/10379" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></center>
     <center><p>Figure 3: Demonstrates the cities of the U.S that are considered clean</p></center><br>
     <p><br>Additionally, FCEVs are powered by hydrogen. As mentioned previously, FCEVs do not produce any harmful emissions and are looking at implementing a system almost similar to how we currently use gas stations and charging stations for electric vehicles. The U.S Department of Energy is working on developing affordable FCEVs and safe for transportation but most importantly environmental friendly.</p>
+    <?php
+        if (isset($_POST['submit'])) {
+            $answer = "Answer2"; // Change this to the correct answer
+            $selected_answer = array_keys($_POST['submit'])[0];
+            $id = $_SESSION['id'];
+            $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
+            $row = mysqli_fetch_assoc($result);
+            $score = $row['Score'];
 
+            if ($selected_answer == $answer) {
+                $score = $score + 5;
+            } else {
+                if ($score >= 1) {
+                    $score = $score - 1;
+                }
+            }
+
+            $edit_query = mysqli_query($con, "UPDATE users SET Score='$score' WHERE Id=$id") or die("Error occurred");
+
+            if ($edit_query) {
+                echo "<div class='message'>
+                        <p>Your total score is $score</p>
+                    </div> <br>";
+                echo "<a href='chapter1_1.php'><button class='btn'>Go Back</button>";
+            }
+        }else{
+    ?>
     <div class="app">
         <h1>Simple Question</h1>
         <div class="quiz">
@@ -132,6 +131,7 @@
             </div>
         </div>
     </div>
+    <?php } ?>
      <!---Footer--->
     <footer class="footer">
         <div class="container">
