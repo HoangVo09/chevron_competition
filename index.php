@@ -48,7 +48,7 @@
                     <input type="password" name="password" id="password" required>
                 </div>
                 <div class="field">
-                    <input type="submi" class="btn" name="submit" value="Login" required>
+                    <input type="submit" class="btn" name="submi" value="Login" required>
                 </div>
                 <div class="links">
                     Don't have account? <a href="register.php">Sign Up Now</a>
