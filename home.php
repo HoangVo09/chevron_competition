@@ -40,10 +40,10 @@
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
                 <div class="dropdown-content">
-                    <a href="home.php">Home</a>
-                    <a href="cited_work.php">Citation</a>
-                    <a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a>
-                    <a href="https://www.chevron.com/who-we-are/contact">Contact us</a>
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="cited_work.php">Citation</a></li>
+                    <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
+                    <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
                     <li><a href="php/logout.php">Logout</a></li>
                 </div>
             </div>
