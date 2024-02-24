@@ -53,7 +53,7 @@
     <center><img class='graphs' src='../Image/fuelgraph.png'></center>
     <center><p>Figure 1: FCEV Fueling Times</p></center><br>
     
-    <h3>Creating Hydrogen:</h3<br>
+    <h3>Creating Hydrogen:</h3><br>
 
     <p><br>Currently there are 4 different methods of producing hydrogen: 
 
