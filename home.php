@@ -59,7 +59,11 @@
         
     </header>
     <main>
-        
+    <div class='chapter'>
+        <ul>
+            <li><div><p>1. Innovative energy sources</p></div></li>
+        </ul>
+    </div>
     <div class="lession">
     <ul> 
         <li>
@@ -70,6 +74,11 @@
         </li>
     </ul> 
     </div>
+    <div class='chapter'>
+        <ul>
+            <li><div><p>2. Waste/Gas management.</p></div></li>
+        </ul>
+    </div>
     <div class="lession">
     <ul> 
         <li>
@@ -79,6 +88,11 @@
             <div><a href='#'><p>2.2. Carbon offsets</p></a></div>
         </li>
     </ul> 
+    </div>
+    <div class='chapter'>
+        <ul>
+            <li><div><a href='#'><p>3. Leaderboard</p></a></div></li>
+        </ul>
     </div>
     </main>
 
