@@ -59,7 +59,6 @@
                 and environmentally friendly energy options for Chevron.
             </p>
         </section>
-    </main>
     <div class="lession">
     <ul> 
         <li>
@@ -80,6 +79,7 @@
         </li>
     </ul> 
     </div>
+    </main>
 
 
     <footer class="footer">
