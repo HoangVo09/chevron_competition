@@ -1,12 +1,39 @@
 <?php
     session_start();
-
     include("config.php");
 
     // Check if the user is logged in
     if (!isset($_SESSION['valid'])) {
         header("Location: index.php");
         exit;
+    }
+
+    $answer = "Answer2"; // Change this to the correct answer
+
+    if (isset($_POST['submit'])) {
+        $selected_answer = $_POST['value'];
+        $id = $_SESSION['id'];
+        $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
+        $row = mysqli_fetch_assoc($result);
+        $score = $row['Score'];
+
+        if ($selected_answer == $answer) {
+            $score = $score + 5;
+        } else {
+            if ($score >= 1) {
+                $score = $score - 1;
+            }
+        }
+
+        $edit_query = mysqli_query($con, "UPDATE users SET Score='$score' WHERE Id=$id") or die("Error occurred");
+
+        if ($edit_query) {
+            echo "<div class='message'>
+                    <p>Your total score is $score</p>
+                </div> <br>";
+            echo "<a href='chapter1_1.php'><button class='btn'>Go Back</button>";
+            exit; // Added exit to prevent further execution of the script
+        }
     }
 ?>
 <!DOCTYPE html>
@@ -50,39 +77,6 @@
     <div class="app">
         <h1>Simple Question</h1>
         <div class="quiz">
-            <?php
-                $answer = "Answer2";
-                if(isset($_POST['submit'])){
-                    $selected_answer = $_POST['value'];
-                    $id = $_SESSION['id'];
-                    $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
-                    $row = mysqli_fetch_assoc($result);
-                    $score = $row['Score'];
-                    if($selected_answer == $answer){
-                        $score = $score + 5;
-                        $edit_query = mysqli_query($con, "UPDATE users SET Score='$score' WHERE Id=$id") or die("Error occured");
-                        if($edit_query){
-                            echo "<div class='message'>
-                                        <p>Your total score is $score</p>
-                                    </div> <br>";
-                            echo "<a href='chapter1_1.php'><button class='btn'>Go Back</button>";
-                        }
-                    }
-                    else{
-                        if($score >= 1){
-                            $score = $score - 1;
-                            $edit_query = mysqli_query($con, "UPDATE users SET Score='$score' WHERE Id=$id") or die("Error occured");
-                            if($edit_query){
-                                echo "<div class='message'>
-                                            <p>Your total score is $score</p>
-                                        </div> <br>";
-                                echo "<a href='chapter1_1.php'><button class='btn'>Go Back</button>";
-                            }
-                        }
-                    }
-
-                }else{
-            ?>
             <h2 id="question">Question go here</h2>
             <div id="answer-buttons">
                 <form action="" method="post">
@@ -92,7 +86,6 @@
                     <button class="btn" type="submit" name="answer" value="Answer4">Answer4</button>
                 </form>
             </div>
-            <?php } ?>
         </div>
     </div>
      <!---Footer--->
