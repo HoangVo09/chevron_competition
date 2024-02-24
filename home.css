@@ -253,8 +253,8 @@ body {
         width: 100%;
     }
 }
-.lession {
-    width: 100%;
+.lesson {
+    width: 95vh;
     display: flex;
     justify-content: center;
 }
@@ -267,11 +267,43 @@ body {
     align-items: stretch; /* Stretch items to full width */
 }
 
-.lession li {
+.lesson li {
     text-align: center;
 }
 
-.lession a {
+.lesson a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 95vh; /* Make each link take full width */
+    background-color: #888686;
+}
+
+.lesson a:hover {
+    background-color: #888686;
+}
+.chapter {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.chapter ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: stretch; /* Stretch items to full width */
+}
+
+.chapter li {
+    text-align: center;
+}
+
+.chapter a {
     text-decoration: none;
     color: black;
     display: block;
@@ -282,6 +314,6 @@ body {
     background-color: #808080;
 }
 
-.lession a:hover {
+.chapter a:hover {
     background-color: #808080;
 }
