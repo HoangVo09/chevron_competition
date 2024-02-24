@@ -42,57 +42,35 @@
     </header>
 
     <h2>2.1. Carbon capture, utilization, and storage (CCUS)</h2>
-    <p>Introduction:<br>
+    <h3>Introduction:</h3>
 
-    <br>Hydrogen (H2) is considered to be an alternative fuel source for domestic resources. These resources can involve vehicles such as buses, industrial vehicles and even may include standard vehicles we use everyday. These vehicles are known as FCEVs (Fuel Cell Electric Vehicles). Furthermore, hydrogen fuel cells can also be used for internal combustion engines, however, unlike FCEVs, it produces more tailpipe emissions and is less efficient. So it is not entirely useless but not useful for the environment. 
+    <p><br>When it comes to the emissions around the globe, it varies between agriculture, transportation and other industries. Furthermore, these emissions are massively affecting the global population. These greenhouse gasses are causing global warming and an increase in carbon dioxide emissions in our atmosphere. So one of the solutions that are being implemented consists of carbon capture and storage.  
 
-    <br><br>Hydrogen Gas:<br>
+    </p><br><h3>What is Carbon Capture?</h3><br>
 
-    <br>When it comes to hydrogen gas energy, 2.2 pounds of hydrogen gas is equivalent to 1 gallon (6.2 pounds) of gasoline. The reason for this is that since Hydrogen has a low volumetric energy density, it is stored onboard the vehicle as a compressed gas to achieve the proper driving range or a conventional vehicle. Currently this gas is being stored in high-pressure tanks that are capable of storing around 5,000 to 10,000 pounds per square inch (PSI). In the graph demonstrated below we have the average fueling times for FCEVs. As we can clearly see for the standard refueling time, it is estimated to take around 4 minutes to fill up the tank with hydrogen. 
-    </p>
-    <center><img class='graphs' src='../Image/fuelgraph.png'></center>
-    <center><p>Figure 1: FCEV Fueling Times</p></center><br>
-    <p>
-    Creating Hydrogen:<br>
+    <p>Carbon capture is capturing carbon dioxide from the atmosphere or from our industrial facilities. This is accomplished by separating the carbon dioxide from various gasses similar to how refineries work. After this is done, it is then processed and compressed to be easily transported through pipes to then be permanently stored more than 8,000 ft underground. This carbon can be used to create other products such as cement in order to prevent it from returning to the atmosphere.    </p>
+    <center><img class='graphs' src='../Image/carboncapture.png'></center>
+    <center><p>Figure 1: Carbon Capture Process simplified</p></center><br>
+    
+    <p><br>When it comes to Carbon Capture, utilization, and storage (CCUS) facilities, they currently are capturing around 45 Megatons (Mt) of CO2 annually. There are nearly around 40 commercial capture facilities that are operational globally. Furthermore, 7 new large facilities became fully operational in January 2022 that capture around 100,000 tons of CO2 per year. Everywhere across the world, there are different capturing facilities being projected to be able to have the same common goal of creating a world with zero carbon emissions. Where 50 new capture facilities is the current target for 2030 across the world.
+    <center><img class='graphs' src='../Image/planning.png'></center>
+    <center><p>Figure 2: Represents the Capacity of Current and Planned CCUS Facilities</p></center><br>
 
-    <br>Currently there are 4 different methods of producing hydrogen: 
+    <p><br>These are a few countries that are on their mission to further increase the amount of CCUS facilities:
 
-    <br><br>Natural Gas Reforming - Synthesis gas is a mixture of hydrogen and carbon monoxide, and a small amount of carbon dioxide and is created with high-temperature steam. This makes it so that the chemical reaction produces hydrogen when it is reacted with water. With incorporating carbon capture it makes it effective to produce hydrogen.
-    <br>Electrolysis - It is the process of using electric currents to split water into hydrogen and oxygen. Since the current goal is to make renewable energy, such as solar or wind, getting hydrogen from this method would be considered renewable as it would provide more opportunities for hydrogen powered projects.
-    <br>Biomass-Derived Liquid Reforming - They are renewable liquid fuels, such as ethanol, that are reacted in high-temperature steam to produce hydrogen when it is near the end of its life.
-    <br>Microbial Biomass Conversion - This method uses biomass to then convert it into sugar-rich feedstocks that are later fermented to make hydrogen.
+    <br><br><b>United States</b> -  In 2021, the US passed the Infrastructure Investment and Jobs Act (IIJA), which gives 12 Billion USD across all of the CCUS value chain through 2026. Furthermore the Department of Energy has been actively working on and is currently working on announcing the Carbon Management Challenge which is making companies and industries try to find better ways to remove more carbon emissions.
+    <br><b>United Kingdom</b> -Under the Spring Budget 2023, 20 Billion GBP in funding was announced to be used for the development of CCUS. Particularly on the East Coast and in the North West of England and North Wales.
+    <br><b>Japan</b> - In January 2023, Japan had issued a CCUS roadmap which gives an annual CO2 storage target of 6-12 Mt CO2 per year for 2030 and 120-140 Mt CO2 per year in 2050.
 
-    <br><br>There different ways are currently used as they are fully researched and are proven to be effective in production, however, there 3 methods that are in development:
+    </p><br><h3>Conclusion:</h3>
 
-    <br><br>Thermochemical Water Splitting - This method would use high temperatures generated by solar concentrators or nuclear reactors that create chemical reactions to be able to then split water to produce hydrogen
-    <br>Photobiological Water Splitting - Microbes, such as green algae, consume water in the presence of sunlight that produce hydrogen as a byproduct.
-    <br>Photoelectrochemical Water Splitting - This process produces hydrogen from water using special semiconductors and energy from sunlight.
-
-    <br><br>These methods will prove to be useful and effective with other methods of producing renewable energy. It will be able to provide alternatives within each of the following categories. Every method will boost the efficiency and reduce the emissions from multiple sources that highly produce carbon emissions.
-
-    <br><br>Methods of Transporting Hydrogen:
-
-    <br><br>Not currently with the research that has been done, there are 3 distributing methods that are crucial for safely transporting hydrogen, however, each method has its disadvantages due to either the costs or due to the limitations and conditions. 
-
-    <br><br>Pipeline - This form of distribution is considered the least-expensive method of delivering large volumes of hydrogen gas. Yet the capacity is limited due to there only being about 1,600 miles of pipelines in the United States. These pipelines are mainly located near large petroleum refineries and chemical plants in Illinois, California, and the Gulf Coast.
-    <br>High-Pressure Tube Trailers - This method would be similar to how we transport gallons of gasoline, using boats, railcars and trailers, however, each vehicle must be containing highly expensive high-pressure tubes that are limited to only 200 or less miles.
-    <br>Liquified Hydrogen Tankers - This method uses Cryogenic liquefaction which is the process that cools hydrogen to a temperature where it becomes a liquid. Although the liquefaction process is expensive, it enables hydrogen to be transported more efficiently over longer distances. This can be accomplished by using trucks, ships, or even barges. As another side of this, the hydrogen delivery and consumption rates must be carefully matched.
-
-    <br><br>Hydrogen Storage and Stations:
-
-    <br><br>When it comes to the U.S Department of Energy (DOE), their research and development team wants to improve technology to be able to safely and store enough FCEVs. The purpose of this project is to be able to substitute conventional vehicles by making them be able to run for at least 300 miles without making these vehicles contain excessive space or adding unnecessary weight to the vehicle.
-
-    <br><br>Furthermore, around half of the U.S population lives in areas where air pollution levels are higher than the recommended safety level for human health. Such emissions from gasoline and diesel vehicles which include nitrogen oxides, hydrocarbons and particulate matter. So when it comes to FCEVs, they do not emit any of these substances that cause damage to the environment, only water (H20) and warm air.
+    <p><br>With around 40 commercial facilities being in operation applying CCUS to industrial processes, fuel transformation and power generation. With over 500 projects in various different stages across the world, with ambitions to better the world and climate. Even if it is at the lowest of development, CCUS deployments would make around a third of the estimated 1.2 Gigatons (Gt) CO2 per year that require Zero Net Emissions by 2050. Which is Chevron’s ultimate goal. However, without a scaled development of CCUS and other carbon dioxide removal technologies, the goal of Zero Net Emissions is highly unlikely. Which is why so many people across the globe are working together to make this goal achievable.
 
     </p>
-    <center><iframe style="width: 900px; height: 664.594px;" src="https://afdc.energy.gov/data/widgets/10802" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></center>
-    <center><p>Figure 2: Represents the Emissions for Greenhouse Gases</p></center><br>
-    <center><iframe style="width: 900px; height: 708.354px;" src="https://afdc.energy.gov/data/widgets/10379" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></center>
-    <center><p>Figure 3: Demonstrates the cities of the U.S that are considered clean</p></center><br>
-    <p><br>Additionally, FCEVs are powered by hydrogen. As mentioned previously, FCEVs do not produce any harmful emissions and are looking at implementing a system almost similar to how we currently use gas stations and charging stations for electric vehicles. The U.S Department of Energy is working on developing affordable FCEVs and safe for transportation but most importantly environmental friendly.</p>
+
     <?php
         if (isset($_POST['submit'])) {
-            $answer = "Answer3"; // Change this to the correct answer
+            $answer = "Answer1"; // Change this to the correct answer
             $selected_answer = array_keys($_POST['submit'])[0];
             $id = $_SESSION['id'];
             $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
@@ -119,13 +97,13 @@
     <div class="app">
         <h1>Question 1</h1>
         <div class="quiz">
-            <h2 id="question">Which of the following is not a way of transporting hydrogen?</h2>
+            <h2 id="question">Where is the majority of the captured carbon stored?</h2>
             <div id="answer-buttons">
                 <form method="post">
-                    <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">Pipelines</button>
-                    <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">High Pressure Tube Trailers</button>
-                    <button class="btn" type="submit" name="submit[Answer3]" value="Answer3">Planes</button>
-                    <button class="btn" type="submit" name="submit[Answer4]" value="Answer4">Liquified Hydrogen Tankers</button>
+                    <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">Underground</button>
+                    <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">Containers</button>
+                    <button class="btn" type="submit" name="submit[Answer3]" value="Answer3">Under the Sea</button>
+                    <button class="btn" type="submit" name="submit[Answer4]" value="Answer4">In the atmosphere</button>
                 </form>
             </div>
         </div>
@@ -160,7 +138,7 @@
     <div class="app">
         <h1>Question 2</h1>
         <div class="quiz">
-            <h2 id="question">You can technically use hydrogen in internal combustion engines and it would be more efficient and less tailpipe emissions would be produced.</h2>
+            <h2 id="question">We cannot use captured carbon for other purposes (Such as vehicles, energy, etc.).</h2>
             <div id="answer-buttons">
                 <form method="post">
                     <button class="btn" type="submit" name="submit1[Answer1]" value="Answer1">True</button>
@@ -199,53 +177,11 @@
     <div class="app">
         <h1>Question 3</h1>
         <div class="quiz">
-            <h2 id="question">Which of the following is already used to develop and produce hydrogen?</h2>
+            <h2 id="question">Carbon can be captured by taking it directly from the atmosphere or preventing it from entering the atmosphere.</h2>
             <div id="answer-buttons">
                 <form method="post">
-                    <button class="btn" type="submit" name="submit2[Answer1]" value="Answer1">Electrolysis</button>
-                    <button class="btn" type="submit" name="submit2[Answer2]" value="Answer2">Thermochemical Water Splitting</button>
-                    <button class="btn" type="submit" name="submit2[Answer3]" value="Answer3">Photoelectrochemical Water Splitting</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <?php } ?>
-    <?php
-        if (isset($_POST['submit3'])) {
-            $answer = "Answer4"; // Change this to the correct answer
-            $selected_answer = array_keys($_POST['submit3'])[0];
-            $id = $_SESSION['id'];
-            $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
-            $row = mysqli_fetch_assoc($result);
-            $score = $row['Score'];
-
-            if ($selected_answer == $answer) {
-                $score = $score + 1;
-            } else {
-                if ($score >= 1) {
-                    $score = $score - 1;
-                }
-            }
-
-            $edit_query = mysqli_query($con, "UPDATE users SET Score='$score' WHERE Id=$id") or die("Error occurred");
-
-            if ($edit_query) {
-                echo "<div class='message'>
-                        <p>Your total score is $score</p>
-                    </div> <br>";
-            }
-        }else{
-    ?>
-    <div class="app">
-        <h1>Question 4</h1>
-        <div class="quiz">
-            <h2 id="question">Which of the following is considered to be the negative of transporting Hydrogen through pipelines.</h2>
-            <div id="answer-buttons">
-                <form method="post">
-                    <button class="btn" type="submit" name="submit3[Answer1]" value="Answer1">Too expensive</button>
-                    <button class="btn" type="submit" name="submit3[Answer2]" value="Answer2">Not enough distance between places</button>
-                    <button class="btn" type="submit" name="submit3[Answer3]" value="Answer3">Dangerous to the Environment</button>
-                    <button class="btn" type="submit" name="submit3[Answer4]" value="Answer4">Low Capacity of pipelines</button>
+                    <button class="btn" type="submit" name="submit2[Answer1]" value="Answer1">True</button>
+                    <button class="btn" type="submit" name="submit2[Answer2]" value="Answer2">False</button>
                 </form>
             </div>
         </div>
