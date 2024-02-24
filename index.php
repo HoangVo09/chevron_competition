@@ -16,7 +16,7 @@
             <?php
 
                 include("config.php");
-                if(isset($_POST['submi'])){
+                if(isset($_POST['subm'])){
                     $email = mysqli_real_escape_string($con, $_POST['email']);
                     $password = mysqli_real_escape_string($con,$_POST['password']);
                     $result = mysqli_query($con, "SELECT * FROM users WHERE Email='$email' AND Password='$password'") or die("Select Error");
