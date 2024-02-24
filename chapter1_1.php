@@ -10,25 +10,25 @@
 <body>
     <header>
         <div class="navbar">
-            <div class="logo"><a href="#">Chevron Educational</a></div>
+            <div class="logo"><a href="home.php">Chevron Educational</a></div>
             <ul class="links">
-                <li><a href="hero">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="service">Problem</a></li>
-                <li><a href="contact">Contact us</a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
+                <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
+                <li><a href="php/logout.php">Logout</a></li>
             </ul>
-            <a href="#" class="action_btn">Get started</a>
+            <a href="#" class="action_btn">Next lesson</a>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
 
         <div class="dropdown_menu">
-            <li><a href="hero">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="service">Service</a></li>
-            <li><a href="contact">Contact us</a></li>
-            <li> <a href="#" class="action_btn">Get started</a></li>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
+            <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
+            <li> <a href="#" class="action_btn">Next lesson</a></li>
+            <li><a href="php/logout.php">Logout</a></li>
         </div>
     </header>
 

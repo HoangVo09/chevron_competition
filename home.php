@@ -30,10 +30,9 @@
                         $res_id = $result['Id'];
                     }
                 ?>
-                <li><a href="hero">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="service">Problem</a></li>
-                <li><a href="contact">Contact us</a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
+                <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
                 <li><a href="php/logout.php">Logout</a></li>
             </ul>
             
@@ -41,9 +40,8 @@
                 <i class="fa-solid fa-bars"></i>
                 <div class="dropdown-content">
                     <a href="hero">Home</a>
-                    <a href="about">About</a>
-                    <a href="service">Problem</a>
-                    <a href="contact">Contact us</a>
+                    <a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a>
+                    <a href="https://www.chevron.com/who-we-are/contact">Contact us</a>
                     <li><a href="php/logout.php">Logout</a></li>
                 </div>
             </div>
