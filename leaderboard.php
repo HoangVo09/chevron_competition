@@ -11,84 +11,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="home.css">
-    <title>Home</title>
+    <title>Test</title>
+    <link rel="stylesheet" href="Test.css">
 </head>
 <body>
     <header>
         <div class="navbar">
             <div class="logo"><a href="home.php">Chevron Educational</a></div>
-            <ul class="links"> 
-                <?php
-                    $id = $_SESSION['id'];
-                    $query = mysqli_query($con, "SELECT * FROM users WHERE Id=$id");
-                    while($result = mysqli_fetch_assoc($query)){
-                        $res_Uname = $result['Username'];
-                        $res_Email = $result['Email'];
-                        $res_Score = $result['Score'];
-                        $res_id = $result['Id'];
-                    }
-                ?>
+            <ul class="links">
                 <li><a href="home.php">Home</a></li>
                 <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
                 <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
                 <li><a href="php/logout.php">Logout</a></li>
             </ul>
-            
+            <a href="#" class="action_btn">Next lesson</a>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
-                <div class="dropdown-content">
-                    <a href="home.php">Home</a>
-                    <a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a>
-                    <a href="https://www.chevron.com/who-we-are/contact">Contact us</a>
-                    <li><a href="php/logout.php">Logout</a></li>
-                </div>
             </div>
         </div>
-        <section id="hero">
-            <h1>Welcome</h1>
-            <p>
-                This website serves as a guide to navigate through innovative solutions pertaining to diverse <br>
-                and environmentally friendly energy options for Chevron.
-            </p>
-        </section>
 
-        
+        <div class="dropdown_menu">
+            <li><a href="home.php">Home</a></li>
+            <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
+            <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
+            <li> <a href="#" class="action_btn">Next lesson</a></li>
+            <li><a href="php/logout.php">Logout</a></li>
+        </div>
     </header>
-    <main>
-    <div class="lesson">
-    <ul> 
-        <li>
-            <div><p>1. Innovative energy sources</p></div>
-        </li>
-        <li>
-            <div><a href='chapter1_1.php'><p>1.1. Hydrogen</p></a></div>
-        </li>
-        <li>
-            <div><a href='#'><p>1.2. Renewable fuels</p></a></div>
-        </li>
-    </ul> 
-    </div>
-    <div class="lesson">
-    <ul> 
-        <li>
-            <div><p>2. Waste/Gas management.</p></div>
-        </li>
-        <li>
-            <div><a href='#'><p>2.1. Carbon capture, utilization, and storage (CCUS)</p></a></div>
-        </li>
-        <li>
-            <div><a href='#'><p>2.2. Carbon offsets</p></a></div>
-        </li>
-    </ul> 
-    </div>
-    <div class="segment"><ul><li><div><a href='leaderboard.php'><p>3. Leaderboard</p></a></div></li></ul></div>
+    <h2>The Leaderboard</h2>
+    <?php
+        /* Mysqli query to fetch rows  
+        in descending order of marks */
+        $result = mysqli_query($con, "SELECT Username,  
+        Score FROM users ORDER BY Score DESC"); 
         
-    </main>
+        /* First rank will be 1 and  
+            second be 2 and so on */
+        $ranking = 1; 
+        
+        /* Fetch Rows from the SQL query */
+        if (mysqli_num_rows($result)) { 
+            while ($row = mysqli_fetch_array($result)) { 
+                echo "<td>{$ranking}</td> 
+                <td>{$row['Username']}</td> 
+                <td>{$row['Score']}</td>"; 
+                $ranking++; 
+            } 
+        } 
+    ?> 
 
-
-    <footer class="footer">
+     <!---Footer--->
+     <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="footer-col">
