@@ -61,12 +61,18 @@
             </p>
         </section>
     </main>
-    <div class="vertical-menu">
-        <a href="#" class="active">Home</a>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-        <a href="#">Link 4</a>
+    <div class="lession">
+    <ul> 
+     <li>
+        <div ><a href ='#'><p>text 1</p></div>
+     </li>
+     <li>
+        <div ><a href ='#'><p>text 2</p></div>
+     </li>
+     <li>
+        <div ><a href ='#'><p>text 3</p></div>
+     </li>
+    </ul> 
     </div>
 
     <footer class="footer">
