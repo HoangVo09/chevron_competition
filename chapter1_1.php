@@ -121,10 +121,12 @@
         <div class="quiz">
             <h2 id="question">Which of the following is not a way of transporting hydrogen?</h2>
             <div id="answer-buttons">
+                <form method="post">
                     <button class="btn" type="submit" name="submit[Answer1]" value="Answer1">Pipelines</button>
                     <button class="btn" type="submit" name="submit[Answer2]" value="Answer2">High Pressure Tube Trailers</button>
                     <button class="btn" type="submit" name="submit[Answer3]" value="Answer3">Planes</button>
                     <button class="btn" type="submit" name="submit[Answer4]" value="Answer4">Liquified Hydrogen Tankers</button>
+                </form>
             </div>
         </div>
     </div>
@@ -160,8 +162,91 @@
         <div class="quiz">
             <h2 id="question">You can technically use hydrogen in internal combustion engines and it would be more efficient and less tailpipe emissions would be produced.</h2>
             <div id="answer-buttons">
+                <form method="post">
                     <button class="btn" type="submit" name="submit1[Answer1]" value="Answer1">True</button>
                     <button class="btn" type="submit" name="submit1[Answer2]" value="Answer2">False</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <?php } ?>
+    <?php
+        if (isset($_POST['submit2'])) {
+            $answer = "Answer1"; // Change this to the correct answer
+            $selected_answer = array_keys($_POST['submit2'])[0];
+            $id = $_SESSION['id'];
+            $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
+            $row = mysqli_fetch_assoc($result);
+            $score = $row['Score'];
+
+            if ($selected_answer == $answer) {
+                $score = $score + 1;
+            } else {
+                if ($score >= 1) {
+                    $score = $score - 1;
+                }
+            }
+
+            $edit_query = mysqli_query($con, "UPDATE users SET Score='$score' WHERE Id=$id") or die("Error occurred");
+
+            if ($edit_query) {
+                echo "<div class='message'>
+                        <p>Your total score is $score</p>
+                    </div> <br>";
+            }
+        }else{
+    ?>
+    <div class="app">
+        <h1>Question 3</h1>
+        <div class="quiz">
+            <h2 id="question">Which of the following is already used to develop and produce hydrogen?</h2>
+            <div id="answer-buttons">
+                <form method="post">
+                    <button class="btn" type="submit" name="submit2[Answer1]" value="Answer1">Electrolysis</button>
+                    <button class="btn" type="submit" name="submit2[Answer2]" value="Answer2">Thermochemical Water Splitting</button>
+                    <button class="btn" type="submit" name="submit2[Answer3]" value="Answer3">Photoelectrochemical Water Splitting</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <?php } ?>
+    <?php
+        if (isset($_POST['submit3'])) {
+            $answer = "Answer4"; // Change this to the correct answer
+            $selected_answer = array_keys($_POST['submit3'])[0];
+            $id = $_SESSION['id'];
+            $result = mysqli_query($con, "SELECT Score FROM users WHERE Id=$id");
+            $row = mysqli_fetch_assoc($result);
+            $score = $row['Score'];
+
+            if ($selected_answer == $answer) {
+                $score = $score + 1;
+            } else {
+                if ($score >= 1) {
+                    $score = $score - 1;
+                }
+            }
+
+            $edit_query = mysqli_query($con, "UPDATE users SET Score='$score' WHERE Id=$id") or die("Error occurred");
+
+            if ($edit_query) {
+                echo "<div class='message'>
+                        <p>Your total score is $score</p>
+                    </div> <br>";
+            }
+        }else{
+    ?>
+    <div class="app">
+        <h1>Question 4</h1>
+        <div class="quiz">
+            <h2 id="question">Which of the following is considered to be the negative of transporting Hydrogen through pipelines.</h2>
+            <div id="answer-buttons">
+                <form method="post">
+                    <button class="btn" type="submit" name="submit3[Answer1]" value="Answer1">Too expensive</button>
+                    <button class="btn" type="submit" name="submit3[Answer2]" value="Answer2">Not enough distance between places</button>
+                    <button class="btn" type="submit" name="submit3[Answer3]" value="Answer3">Dangerous to the Environment</button>
+                    <button class="btn" type="submit" name="submit3[Answer4]" value="Answer4">Low Capacity of pipelines</button>
+                </form>
             </div>
         </div>
     </div>
