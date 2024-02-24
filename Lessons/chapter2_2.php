@@ -22,6 +22,7 @@
             <div class="logo"><a href="../home.php">Chevron Educational</a></div>
             <ul class="links">
                 <li><a href="../home.php">Home</a></li>
+                <li><a href="../cited_work.php">Citation</a></li>
                 <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
                 <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
                 <li><a href="../php/logout.php">Logout</a></li>
@@ -33,6 +34,7 @@
 
         <div class="dropdown_menu">
             <li><a href="../home.php">Home</a></li>
+            <li><a href="../cited_work.php">Citation</a></li>
             <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
             <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
             <li><a href="../php/logout.php">Logout</a></li>
