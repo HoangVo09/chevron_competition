@@ -16,49 +16,33 @@
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <div class="logo"><a href="home.php">Chevron Educational</a></div>
-            <ul class="links">
-                <li><a href="home.php">Home</a></li>
-                <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
-                <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
-                <li><a href="php/logout.php">Logout</a></li>
-            </ul>
-            <a href="#" class="action_btn">Next lesson</a>
-            <div class="toggle_btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </div>
-
-        <div class="dropdown_menu">
-            <li><a href="home.php">Home</a></li>
-            <li><a href="https://www.chevron.com/who-we-are/our-brands/fuel-stations">Service</a></li>
-            <li><a href="https://www.chevron.com/who-we-are/contact">Contact us</a></li>
-            <li> <a href="#" class="action_btn">Next lesson</a></li>
-            <li><a href="php/logout.php">Logout</a></li>
-        </div>
+        <!-- your header content here -->
     </header>
+
     <h2>The Leaderboard</h2>
-    <?php
-        /* Mysqli query to fetch rows  
-        in descending order of marks */
-        $result = mysqli_query($con, "SELECT Username,  
-        Score FROM users ORDER BY Score DESC"); 
-        
-        /* First rank will be 1 and  
-            second be 2 and so on */
-        $ranking = 1; 
-        
-        /* Fetch Rows from the SQL query */
-        if (mysqli_num_rows($result)) { 
-            while ($row = mysqli_fetch_array($result)) { 
-                echo "<td>{$ranking}</td> 
-                <td>{$row['Username']}</td> 
-                <td>{$row['Score']}</td>"; 
-                $ranking++; 
-            } 
-        } 
-    ?> 
+    <table>
+        <tr>
+            <th>Rank</th>
+            <th>Username</th>
+            <th>Score</th>
+        </tr>
+        <?php
+            $result = mysqli_query($con, "SELECT Username, Score FROM users ORDER BY Score DESC");
+            $ranking = 1;
+
+            if (mysqli_num_rows($result)) {
+                while ($row = mysqli_fetch_array($result)) {
+                    echo "<tr>
+                            <td>{$ranking}</td>
+                            <td>{$row['Username']}</td>
+                            <td>{$row['Score']}</td>
+                          </tr>";
+                    $ranking++;
+                }
+            }
+        ?>
+    </table>
+ 
 
      <!---Footer--->
      <footer class="footer">
