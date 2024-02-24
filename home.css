@@ -250,7 +250,7 @@ body {
     }
 }
 .vertical-menu {
-    width: 100%; /* Set a width if you like */
+    width: 200px; /* Set a width if you like */
 }
 
 .vertical-menu a {
